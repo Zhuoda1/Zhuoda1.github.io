@@ -1858,9 +1858,7 @@
                         className: "greeting-nickname",
                         style: { color: t.text },
                       },
-                      "( ",
-                      y.nickname,
-                      " )"
+                      y.nickname
                     ),
                   o.a.createElement(
                     "p",
@@ -9072,4 +9070,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.050aaa65.chunk.js.map
+//# sourceMappingURL=main.d3e88186.chunk.js.map
