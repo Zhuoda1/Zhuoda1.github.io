@@ -9,16 +9,24 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Dockerfile",
+          "name": "Node.js",
+          "iconifyClass": "vscode-icons:file-type-node"
+        },
+        {
+          "name": "Express",
+          "iconifyClass": "skill-icons:expressjs-light"
+        },
+        {
+          "name": "Docker",
           "iconifyClass": "simple-icons:docker"
         },
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Azure",
+          "iconifyClass": "devicon:azure"
         },
         {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
+          "name": "MongoDB",
+          "iconifyClass": "devicon:mongodb-wordmark"
         }
       ]
     },
@@ -31,12 +39,8 @@
       "isFork": true,
       "languages": [
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "C++",
+          "iconifyClass": "devicon:cplusplus"
         }
       ]
     },
@@ -49,12 +53,16 @@
       "isFork": false,
       "languages": [
         {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
+          "name": "Typescript",
+          "iconifyClass": "logos:typescript-icon"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Java",
+          "iconifyClass": "logos-java"
+        },
+        {
+          "name": "Angular",
+          "iconifyClass": "vscode-icons:file-type-angular"
         }
       ]
     },
@@ -81,8 +89,8 @@
       "isFork": false,
       "languages": [
         {
-          "name": "Python",
-          "iconifyClass": "logos-python"
+          "name": "C++",
+          "iconifyClass": "devicon:cplusplus"
         }
       ]
     }

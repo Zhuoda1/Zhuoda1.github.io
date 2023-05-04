@@ -4,7 +4,7 @@
   Array(44).concat([
     function (e) {
       e.exports = JSON.parse(
-        '{"data":[{"id":"PR_kwDOItNVIc5Nb9QV","title":"pull","url":"https://github.com/Zhuoda1/full-stack-with-angular-and-spring-boot/pull/1","state":"MERGED","mergedBy":{"avatarUrl":"https://avatars.githubusercontent.com/u/77218470?u=5a66f436795e4bd181ed11ed5fe1e77ea467e5d2&v=4","url":"https://github.com/Zhuoda1","login":"Zhuoda1"},"createdAt":"2023-04-02T18:07:46Z","number":1,"changedFiles":126,"additions":23751,"deletions":9369,"baseRepository":{"name":"full-stack-with-angular-and-spring-boot","url":"https://github.com/Zhuoda1/full-stack-with-angular-and-spring-boot","owner":{"avatarUrl":"https://avatars.githubusercontent.com/u/77218470?u=5a66f436795e4bd181ed11ed5fe1e77ea467e5d2&v=4","login":"Zhuoda1","url":"https://github.com/Zhuoda1"}}}],"open":0,"closed":0,"merged":1,"totalCount":1}'
+        '{"closed":0,"data":[{"id":"PR_kwDOItNVIc5Nb9QV","title":"pull","url":"https://github.com/Zhuoda1/full-stack-with-angular-and-spring-boot/pull/1","state":"MERGED","mergedBy":{"avatarUrl":"https://avatars.githubusercontent.com/u/77218470?u=5a66f436795e4bd181ed11ed5fe1e77ea467e5d2&v=4","url":"https://github.com/Zhuoda1","login":"Zhuoda1"},"createdAt":"2023-04-02T18:07:46Z","number":1,"changedFiles":126,"additions":23751,"deletions":9369,"baseRepository":{"name":"full-stack-with-angular-and-spring-boot","url":"https://github.com/Zhuoda1/full-stack-with-angular-and-spring-boot","owner":{"avatarUrl":"https://avatars.githubusercontent.com/u/77218470?u=5a66f436795e4bd181ed11ed5fe1e77ea467e5d2&v=4","login":"Zhuoda1","url":"https://github.com/Zhuoda1"}}}],"merged":1,"open":0,"totalCount":1}'
       );
     },
     ,
@@ -14,7 +14,7 @@
     ,
     ,
     function (e) {
-      e.exports = JSON.parse('{"data":[],"open":0,"closed":0,"totalCount":0}');
+      e.exports = JSON.parse('{"closed":0,"data":[],"open":0,"totalCount":0}');
     },
     ,
     function (e, t, a) {
@@ -161,7 +161,7 @@
     },
     function (e) {
       e.exports = JSON.parse(
-        '{"data":[{"id":"R_kgDOJek4OQ","name":"schedule_app","createdAt":"2023-05-04T02:18:27Z","url":"https://github.com/Zhuoda1/schedule_app","description":"A schedule app webpage providing schedule uploading and updating services","isFork":false,"languages":[{"name":"Dockerfile","iconifyClass":"simple-icons:docker"},{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"JavaScript","iconifyClass":"logos-javascript"}]},{"id":"R_kgDOH1HvEg","name":"TinyWebServer","createdAt":"2022-08-16T16:39:37Z","url":"https://github.com/Zhuoda1/TinyWebServer","description":"C++ Web Server","isFork":true,"languages":[{"name":"Shell","iconifyClass":"simple-icons:shell"},{"name":"HTML","iconifyClass":"logos-html-5"}]},{"id":"R_kgDOIterRw","name":"Todo-Web-App","createdAt":"2023-01-02T23:10:19Z","url":"https://github.com/Zhuoda1/Todo-Web-App","description":"A todo web app using Java spring boot and Angular.","isFork":false,"languages":[{"name":"HTML","iconifyClass":"logos-html-5"},{"name":"CSS","iconifyClass":"logos-css-3"}]},{"id":"R_kgDOHbTGAA","name":"Wordle-Java-Swing-local","createdAt":"2022-05-31T15:10:26Z","url":"https://github.com/Zhuoda1/Wordle-Java-Swing-local","description":"A reproduction of worlde - a famous online game","isFork":false,"languages":[{"name":"Java","iconifyClass":"logos-java"}]},{"id":"R_kgDOH1wzkQ","name":"Leetcode-Answers","createdAt":"2022-08-18T09:05:44Z","url":"https://github.com/Zhuoda1/Leetcode-Answers","description":"Personal Leetcode Answers","isFork":false,"languages":[{"name":"Python","iconifyClass":"logos-python"}]}]}'
+        '{"data":[{"id":"R_kgDOJek4OQ","name":"schedule_app","createdAt":"2023-05-04T02:18:27Z","url":"https://github.com/Zhuoda1/schedule_app","description":"A schedule app webpage providing schedule uploading and updating services","isFork":false,"languages":[{"name":"Node.js","iconifyClass":"vscode-icons:file-type-node"},{"name":"Express","iconifyClass":"skill-icons:expressjs-light"},{"name":"Docker","iconifyClass":"simple-icons:docker"},{"name":"Azure","iconifyClass":"devicon:azure"},{"name":"MongoDB","iconifyClass":"devicon:mongodb-wordmark"}]},{"id":"R_kgDOH1HvEg","name":"TinyWebServer","createdAt":"2022-08-16T16:39:37Z","url":"https://github.com/Zhuoda1/TinyWebServer","description":"C++ Web Server","isFork":true,"languages":[{"name":"C++","iconifyClass":"devicon:cplusplus"}]},{"id":"R_kgDOIterRw","name":"Todo-Web-App","createdAt":"2023-01-02T23:10:19Z","url":"https://github.com/Zhuoda1/Todo-Web-App","description":"A todo web app using Java spring boot and Angular.","isFork":false,"languages":[{"name":"Typescript","iconifyClass":"logos:typescript-icon"},{"name":"Java","iconifyClass":"logos-java"},{"name":"Angular","iconifyClass":"vscode-icons:file-type-angular"}]},{"id":"R_kgDOHbTGAA","name":"Wordle-Java-Swing-local","createdAt":"2022-05-31T15:10:26Z","url":"https://github.com/Zhuoda1/Wordle-Java-Swing-local","description":"A reproduction of worlde - a famous online game","isFork":false,"languages":[{"name":"Java","iconifyClass":"logos-java"}]},{"id":"R_kgDOH1wzkQ","name":"Leetcode-Answers","createdAt":"2022-08-18T09:05:44Z","url":"https://github.com/Zhuoda1/Leetcode-Answers","description":"Personal Leetcode Answers","isFork":false,"languages":[{"name":"C++","iconifyClass":"devicon:cplusplus"}]}]}'
       );
     },
     ,
@@ -639,7 +639,7 @@
             },
           ],
         },
-        M = {
+        v = {
           competitiveSites: [
             {
               siteName: "LeetCode",
@@ -649,7 +649,7 @@
             },
           ],
         },
-        v = {
+        M = {
           degrees: [
             {
               title: "University of Minnesota, Twin Cities",
@@ -4646,7 +4646,7 @@
                     r.a.createElement(
                       "div",
                       { className: "educations-body-div" },
-                      v.degrees.map(function (t) {
+                      M.degrees.map(function (t) {
                         return r.a.createElement(ie, { degree: t, theme: e });
                       })
                     )
@@ -5191,7 +5191,7 @@
                                 "Basic Qualification and Certifcations"
                               ),
                               r.a.createElement(me, {
-                                logos: M.competitiveSites,
+                                logos: v.competitiveSites,
                               })
                             )
                           )
@@ -5967,7 +5967,7 @@
           );
         })(l.Component),
         xe = (a(309), a(51)),
-        Me = (function (e) {
+        ve = (function (e) {
           Object(f.a)(a, e);
           var t = Object(C.a)(a);
           function a() {
@@ -6017,7 +6017,7 @@
             a
           );
         })(l.Component),
-        ve =
+        Me =
           (a(310),
           (function (e) {
             Object(f.a)(a, e);
@@ -6054,7 +6054,7 @@
                         "div",
                         { className: "os-charts-body-div" },
                         r.a.createElement(be, null),
-                        r.a.createElement(Me, null)
+                        r.a.createElement(ve, null)
                       )
                     );
                   },
@@ -6651,7 +6651,7 @@
                       { className: "opensource-main" },
                       r.a.createElement(L, { theme: this.props.theme }),
                       r.a.createElement(Ze, { theme: this.props.theme }),
-                      r.a.createElement(ve, { theme: this.props.theme }),
+                      r.a.createElement(Me, { theme: this.props.theme }),
                       r.a.createElement(je, { theme: this.props.theme }),
                       r.a.createElement(Re, { theme: this.props.theme }),
                       r.a.createElement(te, {
@@ -8301,4 +8301,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.70819251.chunk.js.map
+//# sourceMappingURL=main.cdbe28a5.chunk.js.map
