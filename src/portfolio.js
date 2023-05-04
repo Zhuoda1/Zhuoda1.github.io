@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Zhuoda's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
   og: {
     title: "Zhuoda Liu Portfolio",
     type: "website",
@@ -20,14 +20,14 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Zhuoda Liu",
-  logo_name: "Zhuoda",
+  logo_name: "刘卓达",
   // nickname: "Zd",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://drive.google.com/file/d/1gMyzaKLFZMElMZ6sKLkCABWe7In4AsXp/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
-  githubProfile: "https://github.com/ashutosh1919",
+  githubProfile: "https://github.com/Zhuoda1",
 };
 
 const socialMediaLinks = [

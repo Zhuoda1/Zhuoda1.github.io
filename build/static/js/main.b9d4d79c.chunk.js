@@ -483,7 +483,7 @@
         C = {
           title: "Zhuoda's Portfolio",
           description:
-            "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+            "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
           og: {
             title: "Zhuoda Liu Portfolio",
             type: "website",
@@ -492,14 +492,12 @@
         },
         y = {
           title: "Zhuoda Liu",
-          logo_name: "Zhuoda",
+          logo_name: "\u5218\u5353\u8fbe",
           subTitle:
-            "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+            "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
           resumeLink:
-            "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-          portfolio_repository:
-            "https://github.com/ashutosh1919/masterPortfolio",
-          githubProfile: "https://github.com/ashutosh1919",
+            "https://drive.google.com/file/d/1gMyzaKLFZMElMZ6sKLkCABWe7In4AsXp/view?usp=sharing",
+          githubProfile: "https://github.com/Zhuoda1",
         },
         E = [
           {
@@ -4361,9 +4359,7 @@
                 className: "footer-text",
                 style: { color: e.theme.secondaryText },
               },
-              "Made with ",
-              o.a.createElement("span", { role: "img" }, "\u2764\ufe0f"),
-              " by ",
+              "Made by ",
               y.title
             )
           )
@@ -9075,4 +9071,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.9c2d9663.chunk.js.map
+//# sourceMappingURL=main.b9d4d79c.chunk.js.map
