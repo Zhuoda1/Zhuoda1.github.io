@@ -59,7 +59,13 @@ class ExperienceCard extends Component {
             className="experience-card-description"
             style={{ color: theme.text }}
           >
-            {experience["description"]}
+            {experience.descriptions.map((sentence) => {
+              return (
+                <p className="content-list" style={{ color: theme.text }}>
+                  {sentence}
+                </p>
+              );
+            })}
           </p>
         </div>
       </div>
