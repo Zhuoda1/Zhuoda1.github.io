@@ -490,16 +490,18 @@
             url: "http://zhuodaliu.com/",
           },
         },
-        y = "Zhuoda Liu",
-        E = "Zhuoda",
-        v = "Zd",
-        w =
-          "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-        M =
-          "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
-        x = "https://github.com/ashutosh1919/masterPortfolio",
-        k = "https://github.com/ashutosh1919",
-        Z = [
+        y = {
+          title: "Zhuoda Liu",
+          logo_name: "Zhuoda",
+          subTitle:
+            "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+          resumeLink:
+            "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+          portfolio_repository:
+            "https://github.com/ashutosh1919/masterPortfolio",
+          githubProfile: "https://github.com/ashutosh1919",
+        },
+        E = [
           {
             name: "Github",
             link: "https://github.com/Zhuoda1",
@@ -519,7 +521,7 @@
             backgroundColor: "#D14836",
           },
         ],
-        N = {
+        v = {
           data: [
             {
               title: "Data Science & AI",
@@ -698,7 +700,7 @@
             },
           ],
         },
-        D = {
+        w = {
           competitiveSites: [
             {
               siteName: "LeetCode",
@@ -738,7 +740,7 @@
             },
           ],
         },
-        O = {
+        M = {
           degrees: [
             {
               title: "Indian Institute of Information Technology Kurnool",
@@ -768,7 +770,7 @@
             },
           ],
         },
-        S = {
+        x = {
           certifications: [
             {
               title: "Machine Learning",
@@ -880,7 +882,7 @@
             },
           ],
         },
-        U = {
+        k = {
           title: "Experience",
           subtitle: "Work, Internship and Volunteership",
           description:
@@ -1029,13 +1031,13 @@
             },
           ],
         },
-        R = "Projects",
-        B =
+        Z = "Projects",
+        N =
           "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-        j = "Publications",
-        T =
+        D = "Publications",
+        O =
           "I have worked on and published a few research papers and publications of my own.",
-        F = {
+        S = {
           data: [
             {
               id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
@@ -1084,32 +1086,32 @@
             },
           ],
         },
-        I = {
+        U = {
           title: "Contact Me",
           profile_image_path: "animated_ashutosh.png",
           description:
             "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
         },
-        z = {
+        R = {
           title: "Blogs",
           subtitle:
             "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
           link: "https://blogs.ashutoshhathidara.com/",
           avatar_image_path: "blogs_image.svg",
         },
-        H = {
+        B = {
           title: "Address",
           subtitle:
             "Ambavadi vas, Kanodar, T.A.-Palanpur, Dist.-Banaskantha, Gujarat - 385520",
           avatar_image_path: "address_image.svg",
           location_map_link: "https://goo.gl/maps/MpMqtRZytFchMkZ76",
         },
-        G = { title: "", subtitle: "" },
-        X = a(108);
-      var L = function () {
+        j = { title: "", subtitle: "" },
+        T = a(108);
+      var F = function () {
           var e, t, a;
           return o.a.createElement(
-            X.a,
+            T.a,
             null,
             o.a.createElement("title", null, C.title),
             o.a.createElement("meta", {
@@ -1148,13 +1150,13 @@
             })
           );
         },
-        Q = function (e, t) {
+        I = function (e, t) {
           e.target.style.backgroundColor = t;
         },
-        P = function (e) {
+        z = function (e) {
           e.target.style.backgroundColor = "transparent";
         },
-        V = (function (e) {
+        H = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -1170,7 +1172,7 @@
                   return o.a.createElement(
                     b.Fade,
                     { top: !0, duration: 1e3, distance: "20px" },
-                    o.a.createElement(L, null),
+                    o.a.createElement(F, null),
                     o.a.createElement(
                       "div",
                       null,
@@ -1191,7 +1193,7 @@
                               className: "logo-name",
                               style: { color: e.text },
                             },
-                            E
+                            y.logo_name
                           ),
                           o.a.createElement(
                             "span",
@@ -1226,10 +1228,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return I(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return P(e);
+                                  return z(e);
                                 },
                               },
                               "Home"
@@ -1246,10 +1248,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return I(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return P(e);
+                                  return z(e);
                                 },
                               },
                               "Education"
@@ -1266,10 +1268,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return I(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return P(e);
+                                  return z(e);
                                 },
                               },
                               "Experience"
@@ -1286,10 +1288,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return I(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return P(e);
+                                  return z(e);
                                 },
                               },
                               "Projects"
@@ -1306,10 +1308,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: e.text },
                                 onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
+                                  return I(t, e.highlight);
                                 },
                                 onMouseOut: function (e) {
-                                  return P(e);
+                                  return z(e);
                                 },
                               },
                               "Contact Me"
@@ -1325,23 +1327,23 @@
             a
           );
         })(r.Component),
-        q = (a(150), a(61)),
-        J = (a(151), a(37));
-      function W() {
-        var e = Object(q.a)([
+        G = (a(150), a(61)),
+        X = (a(151), a(37));
+      function L() {
+        var e = Object(G.a)([
           "\n  i {\n    background-color: ",
           ";\n  }\n  &:hover i {\n    background-color: ",
           ";\n    transition: 0.3s ease-in;\n  }\n",
         ]);
         return (
-          (W = function () {
+          (L = function () {
             return e;
           }),
           e
         );
       }
-      var Y = J.c.span(
-        W(),
+      var Q = X.c.span(
+        L(),
         function (e) {
           return e.backgroundColor;
         },
@@ -1349,11 +1351,11 @@
           return e.theme.text;
         }
       );
-      function K(e) {
+      function P(e) {
         return o.a.createElement(
           "div",
           { className: "social-media-div" },
-          Z.map(function (t) {
+          E.map(function (t) {
             return o.a.createElement(
               "a",
               {
@@ -1363,7 +1365,7 @@
                 rel: "noopener noreferrer",
               },
               o.a.createElement(
-                Y,
+                Q,
                 Object.assign({}, t, e),
                 o.a.createElement("i", {
                   className: "fab ".concat(t.fontAwesomeIcon),
@@ -1374,7 +1376,7 @@
         );
       }
       a(152);
-      function _(e) {
+      function V(e) {
         var t = e.text,
           a = e.className,
           r = e.href,
@@ -1411,7 +1413,7 @@
           )
         );
       }
-      var $ = (function (e) {
+      var q = (function (e) {
         Object(p.a)(a, e);
         var t = Object(u.a)(a);
         function a() {
@@ -1828,7 +1830,7 @@
           a
         );
       })(r.Component);
-      function ee(e) {
+      function J(e) {
         var t = e.theme;
         return o.a.createElement(
           b.Fade,
@@ -1848,9 +1850,9 @@
                   o.a.createElement(
                     "h1",
                     { className: "greeting-text", style: { color: t.text } },
-                    y
+                    y.title
                   ),
-                  v &&
+                  y.nickname &&
                     o.a.createElement(
                       "h2",
                       {
@@ -1858,7 +1860,7 @@
                         style: { color: t.text },
                       },
                       "( ",
-                      v,
+                      y.nickname,
                       " )"
                     ),
                   o.a.createElement(
@@ -1867,16 +1869,16 @@
                       className: "greeting-text-p subTitle",
                       style: { color: t.secondaryText },
                     },
-                    w
+                    y.subTitle
                   ),
-                  o.a.createElement(K, { theme: t }),
+                  o.a.createElement(P, { theme: t }),
                   o.a.createElement(
                     "div",
                     { className: "portfolio-repo-btn-div" },
-                    o.a.createElement(_, {
+                    o.a.createElement(V, {
                       text: "\u2b50 Star Me On Github",
                       newTab: !0,
-                      href: x,
+                      href: y.portfolio_repository,
                       theme: t,
                       className: "portfolio-repo-btn",
                     })
@@ -1886,16 +1888,16 @@
               o.a.createElement(
                 "div",
                 { className: "greeting-image-div" },
-                o.a.createElement($, { theme: t })
+                o.a.createElement(q, { theme: t })
               )
             )
           )
         );
       }
       a(92), a(153);
-      var te = a(335),
-        ae = a(337),
-        re = (function (e) {
+      var W = a(335),
+        Y = a(337),
+        K = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -1917,12 +1919,12 @@
                         { className: "dev-icons" },
                         this.props.logos.map(function (e) {
                           return o.a.createElement(
-                            te.a,
+                            W.a,
                             {
                               key: e.skillName,
                               placement: "top",
                               overlay: o.a.createElement(
-                                ae.a,
+                                Y.a,
                                 { id: "tooltip-top" },
                                 o.a.createElement("strong", null, e.skillName)
                               ),
@@ -1951,7 +1953,7 @@
             a
           );
         })(o.a.Component),
-        oe = (function (e) {
+        _ = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -2339,7 +2341,7 @@
             a
           );
         })(r.Component),
-        se = (function (e) {
+        $ = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -2650,7 +2652,7 @@
             a
           );
         })(r.Component),
-        le = (function (e) {
+        ee = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -3024,7 +3026,7 @@
             a
           );
         })(r.Component),
-        ne = (function (e) {
+        te = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -4236,16 +4238,16 @@
             a
           );
         })(r.Component);
-      function ie(e) {
+      function ae(e) {
         return "DataScienceImg" === e.fileName
-          ? o.a.createElement(oe, { theme: e.theme })
+          ? o.a.createElement(_, { theme: e.theme })
           : "FullStackImg" === e.fileName
-          ? o.a.createElement(se, { theme: e.theme })
+          ? o.a.createElement($, { theme: e.theme })
           : "CloudInfraImg" === e.fileName
-          ? o.a.createElement(le, { theme: e.theme })
-          : o.a.createElement(ne, { theme: e.theme });
+          ? o.a.createElement(ee, { theme: e.theme })
+          : o.a.createElement(te, { theme: e.theme });
       }
-      var ce = (function (e) {
+      var re = (function (e) {
         Object(p.a)(a, e);
         var t = Object(u.a)(a);
         function a() {
@@ -4260,7 +4262,7 @@
                 return o.a.createElement(
                   "div",
                   null,
-                  N.data.map(function (t) {
+                  v.data.map(function (t) {
                     return o.a.createElement(
                       "div",
                       { className: "skills-main-div" },
@@ -4270,7 +4272,7 @@
                         o.a.createElement(
                           "div",
                           { className: "skills-image-div" },
-                          o.a.createElement(ie, {
+                          o.a.createElement(ae, {
                             fileName: t.fileName,
                             theme: e,
                           })
@@ -4294,7 +4296,7 @@
                         o.a.createElement(
                           b.Fade,
                           { right: !0, duration: 1500 },
-                          o.a.createElement(re, { logos: t.softwareSkills })
+                          o.a.createElement(K, { logos: t.softwareSkills })
                         ),
                         o.a.createElement(
                           b.Fade,
@@ -4324,7 +4326,7 @@
           a
         );
       })(r.Component);
-      function he(e) {
+      function oe(e) {
         var t = e.theme;
         return o.a.createElement(
           "div",
@@ -4342,11 +4344,11 @@
               )
             )
           ),
-          o.a.createElement(ce, { theme: t })
+          o.a.createElement(re, { theme: t })
         );
       }
       a(155);
-      function me(e) {
+      function se(e) {
         return o.a.createElement(
           "div",
           { className: "footer-div" },
@@ -4362,13 +4364,13 @@
               "Made with ",
               o.a.createElement("span", { role: "img" }, "\u2764\ufe0f"),
               " by ",
-              y
+              y.title
             )
           )
         );
       }
       a(156);
-      function de(e) {
+      function le(e) {
         var t = e.theme;
         window.onscroll = function () {
           document.body.scrollTop > 30 ||
@@ -4416,7 +4418,7 @@
           })
         );
       }
-      var ue = (function (e) {
+      var ne = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -4430,11 +4432,11 @@
                   return o.a.createElement(
                     "div",
                     null,
-                    o.a.createElement(V, { theme: this.props.theme }),
-                    o.a.createElement(ee, { theme: this.props.theme }),
-                    o.a.createElement(he, { theme: this.props.theme }),
-                    o.a.createElement(me, { theme: this.props.theme }),
-                    o.a.createElement(de, { theme: this.props.theme })
+                    o.a.createElement(H, { theme: this.props.theme }),
+                    o.a.createElement(J, { theme: this.props.theme }),
+                    o.a.createElement(oe, { theme: this.props.theme }),
+                    o.a.createElement(se, { theme: this.props.theme }),
+                    o.a.createElement(le, { theme: this.props.theme })
                   );
                 },
               },
@@ -4442,7 +4444,7 @@
             a
           );
         })(r.Component),
-        pe =
+        ie =
           (a(157),
           a(158),
           (function (e) {
@@ -4696,7 +4698,7 @@
               a
             );
           })(o.a.Component));
-      function ge(e) {
+      function ce(e) {
         return o.a.createElement(
           "div",
           { className: "logo_wrapper" },
@@ -4706,11 +4708,11 @@
               className: "screen",
               style: { backgroundColor: e.theme.splashBg },
             },
-            o.a.createElement(pe, { id: "logo", theme: e.theme })
+            o.a.createElement(ie, { id: "logo", theme: e.theme })
           )
         );
       }
-      var fe = (function (e) {
+      var he = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a(e) {
@@ -4743,14 +4745,14 @@
                 value: function () {
                   return this.state.redirect
                     ? o.a.createElement(f.a, { to: "/home" })
-                    : o.a.createElement(ge, { theme: this.props.theme });
+                    : o.a.createElement(ce, { theme: this.props.theme });
                 },
               },
             ]),
             a
           );
         })(r.Component),
-        be =
+        me =
           (a(159),
           a(160),
           (function (e) {
@@ -4882,7 +4884,7 @@
               r
             );
           })(r.Component)),
-        Ae = (function (e) {
+        de = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -4916,8 +4918,8 @@
                     o.a.createElement(
                       "div",
                       { className: "educations-body-div" },
-                      O.degrees.map(function (t) {
-                        return o.a.createElement(be, { degree: t, theme: e });
+                      M.degrees.map(function (t) {
+                        return o.a.createElement(me, { degree: t, theme: e });
                       })
                     )
                   );
@@ -4927,7 +4929,7 @@
             a
           );
         })(r.Component),
-        Ce =
+        ue =
           (a(206),
           a(207),
           (function (e) {
@@ -5016,7 +5018,7 @@
               r
             );
           })(r.Component)),
-        ye = (function (e) {
+        pe = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -5050,8 +5052,8 @@
                     o.a.createElement(
                       "div",
                       { className: "certs-body-div" },
-                      S.certifications.map(function (t) {
-                        return o.a.createElement(Ce, {
+                      x.certifications.map(function (t) {
+                        return o.a.createElement(ue, {
                           certificate: t,
                           theme: e,
                         });
@@ -5064,7 +5066,7 @@
             a
           );
         })(r.Component),
-        Ee =
+        ge =
           (a(208),
           (function (e) {
             Object(p.a)(a, e);
@@ -5085,13 +5087,13 @@
                         { className: "dev-icons" },
                         this.props.logos.map(function (e) {
                           return o.a.createElement(
-                            te.a,
+                            W.a,
                             {
                               key: e.siteName,
                               placement: "top",
                               style: { marginBottom: "5px" },
                               overlay: o.a.createElement(
-                                ae.a,
+                                Y.a,
                                 { id: "tooltip-top" },
                                 o.a.createElement("strong", null, e.siteName)
                               ),
@@ -5127,7 +5129,7 @@
               a
             );
           })(o.a.Component)),
-        ve = (function (e) {
+        fe = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -5456,7 +5458,7 @@
             a
           );
         })(r.Component),
-        we =
+        be =
           (a(209),
           (function (e) {
             Object(p.a)(a, e);
@@ -5473,7 +5475,7 @@
                     return o.a.createElement(
                       "div",
                       { className: "education-main" },
-                      o.a.createElement(V, { theme: this.props.theme }),
+                      o.a.createElement(H, { theme: this.props.theme }),
                       o.a.createElement(
                         "div",
                         { className: "basic-education" },
@@ -5486,7 +5488,7 @@
                             o.a.createElement(
                               "div",
                               { className: "heading-img-div" },
-                              o.a.createElement(ve, { theme: e })
+                              o.a.createElement(fe, { theme: e })
                             ),
                             o.a.createElement(
                               "div",
@@ -5507,19 +5509,19 @@
                                 },
                                 "Basic Qualification and Certifcations"
                               ),
-                              o.a.createElement(Ee, {
-                                logos: D.competitiveSites,
+                              o.a.createElement(ge, {
+                                logos: w.competitiveSites,
                               })
                             )
                           )
                         ),
-                        o.a.createElement(Ae, { theme: this.props.theme }),
-                        S.certifications.length > 0
-                          ? o.a.createElement(ye, { theme: this.props.theme })
+                        o.a.createElement(de, { theme: this.props.theme }),
+                        x.certifications.length > 0
+                          ? o.a.createElement(pe, { theme: this.props.theme })
                           : null
                       ),
-                      o.a.createElement(me, { theme: this.props.theme }),
-                      o.a.createElement(de, { theme: this.props.theme })
+                      o.a.createElement(se, { theme: this.props.theme }),
+                      o.a.createElement(le, { theme: this.props.theme })
                     );
                   },
                 },
@@ -5527,7 +5529,7 @@
               a
             );
           })(r.Component)),
-        Me =
+        Ae =
           (a(210),
           (function (e) {
             Object(p.a)(r, e);
@@ -5629,9 +5631,9 @@
               r
             );
           })(r.Component)),
-        xe = (a(211), a(338)),
-        ke = a(334),
-        Ze = (function (e) {
+        Ce = (a(211), a(338)),
+        ye = a(334),
+        Ee = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -5647,11 +5649,11 @@
                     "div",
                     { className: "experience-accord" },
                     o.a.createElement(
-                      xe.a,
+                      Ce.a,
                       null,
                       this.props.sections.map(function (t) {
                         return o.a.createElement(
-                          ke.a,
+                          ye.a,
                           {
                             className: "accord-panel",
                             title: t.title,
@@ -5681,7 +5683,7 @@
                             },
                           },
                           t.experiences.map(function (t) {
-                            return o.a.createElement(Me, {
+                            return o.a.createElement(Ae, {
                               experience: t,
                               theme: e,
                             });
@@ -5696,7 +5698,7 @@
             a
           );
         })(r.Component),
-        Ne =
+        ve =
           (a(212),
           (function (e) {
             Object(p.a)(a, e);
@@ -6146,7 +6148,7 @@
               a
             );
           })(r.Component)),
-        De = (function (e) {
+        we = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6161,7 +6163,7 @@
                   return o.a.createElement(
                     "div",
                     { className: "experience-main" },
-                    o.a.createElement(V, { theme: e }),
+                    o.a.createElement(H, { theme: e }),
                     o.a.createElement(
                       "div",
                       { className: "basic-experience" },
@@ -6174,7 +6176,7 @@
                           o.a.createElement(
                             "div",
                             { className: "experience-heading-img-div" },
-                            o.a.createElement(Ne, { theme: e })
+                            o.a.createElement(ve, { theme: e })
                           ),
                           o.a.createElement(
                             "div",
@@ -6185,7 +6187,7 @@
                                 className: "experience-heading-text",
                                 style: { color: e.text },
                               },
-                              U.title
+                              k.title
                             ),
                             o.a.createElement(
                               "h3",
@@ -6193,7 +6195,7 @@
                                 className: "experience-heading-sub-text",
                                 style: { color: e.text },
                               },
-                              U.subtitle
+                              k.subtitle
                             ),
                             o.a.createElement(
                               "p",
@@ -6202,18 +6204,18 @@
                                   "experience-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              U.description
+                              k.description
                             )
                           )
                         )
                       )
                     ),
-                    o.a.createElement(Ze, { sections: U.sections, theme: e }),
-                    o.a.createElement(me, {
+                    o.a.createElement(Ee, { sections: k.sections, theme: e }),
+                    o.a.createElement(se, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    o.a.createElement(de, { theme: this.props.theme })
+                    o.a.createElement(le, { theme: this.props.theme })
                   );
                 },
               },
@@ -6221,9 +6223,9 @@
             a
           );
         })(r.Component),
-        Oe = a(67),
-        Se = (a(304), a(44)),
-        Ue = (function (e) {
+        Me = a(67),
+        xe = (a(304), a(44)),
+        ke = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6238,7 +6240,7 @@
                     labels: ["Open", "Merged", "Closed"],
                     datasets: [
                       {
-                        data: [Se.open, Se.merged, Se.closed],
+                        data: [xe.open, xe.merged, xe.closed],
                         backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
                         hoverBackgroundColor: [
                           "#28a745dd",
@@ -6260,7 +6262,7 @@
                         "Pull Request Distribution"
                       )
                     ),
-                    o.a.createElement(Oe.a, {
+                    o.a.createElement(Me.a, {
                       data: e,
                       options: {
                         padding: "0",
@@ -6277,8 +6279,8 @@
             a
           );
         })(r.Component),
-        Re = (a(305), a(51)),
-        Be = (function (e) {
+        Ze = (a(305), a(51)),
+        Ne = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6293,7 +6295,7 @@
                     labels: ["Open", "Closed"],
                     datasets: [
                       {
-                        data: [Re.open, Re.closed],
+                        data: [Ze.open, Ze.closed],
                         backgroundColor: ["#28a745", "#d73a49"],
                         hoverBackgroundColor: ["#28a745dd", "#d73a49dd"],
                       },
@@ -6311,7 +6313,7 @@
                         "Issue Distribution"
                       )
                     ),
-                    o.a.createElement(Oe.a, {
+                    o.a.createElement(Me.a, {
                       data: e,
                       options: {
                         margin: "0",
@@ -6328,7 +6330,7 @@
             a
           );
         })(r.Component),
-        je =
+        De =
           (a(306),
           (function (e) {
             Object(p.a)(a, e);
@@ -6364,8 +6366,8 @@
                       o.a.createElement(
                         "div",
                         { className: "os-charts-body-div" },
-                        o.a.createElement(Ue, null),
-                        o.a.createElement(Be, null)
+                        o.a.createElement(ke, null),
+                        o.a.createElement(Ne, null)
                       )
                     );
                   },
@@ -6374,7 +6376,7 @@
               a
             );
           })(r.Component)),
-        Te =
+        Oe =
           (a(307),
           a(308),
           (function (e) {
@@ -6396,13 +6398,13 @@
                         { className: "dev-icons-orgs" },
                         this.props.logos.map(function (e) {
                           return o.a.createElement(
-                            te.a,
+                            W.a,
                             {
                               key: e.login,
                               placement: "top",
                               style: { marginBottom: "5px" },
                               overlay: o.a.createElement(
-                                ae.a,
+                                Y.a,
                                 { id: "tooltip-top" },
                                 o.a.createElement("strong", null, e.login)
                               ),
@@ -6433,8 +6435,8 @@
               a
             );
           })(r.Component)),
-        Fe = a(123),
-        Ie = (function (e) {
+        Se = a(123),
+        Ue = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6465,7 +6467,7 @@
                         )
                       )
                     ),
-                    o.a.createElement(Te, { logos: Fe.data })
+                    o.a.createElement(Oe, { logos: Se.data })
                   );
                 },
               },
@@ -6473,7 +6475,7 @@
             a
           );
         })(r.Component),
-        ze =
+        Re =
           (a(309),
           a(310),
           (function (e) {
@@ -6516,13 +6518,13 @@
                     if (null !== a.mergedBy) {
                       var l = a.mergedBy.login;
                       r = o.a.createElement(
-                        te.a,
+                        W.a,
                         {
                           key: l,
                           placement: "top",
                           style: { marginBottom: "5px" },
                           overlay: o.a.createElement(
-                            ae.a,
+                            Y.a,
                             { id: "tooltip-top" },
                             o.a.createElement(
                               "strong",
@@ -6685,7 +6687,7 @@
               a
             );
           })(r.Component)),
-        He = (function (e) {
+        Be = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6719,8 +6721,8 @@
                     o.a.createElement(
                       "div",
                       { className: "pull-request-body-div" },
-                      Se.data.map(function (e) {
-                        return o.a.createElement(ze, { pullRequest: e });
+                      xe.data.map(function (e) {
+                        return o.a.createElement(Re, { pullRequest: e });
                       })
                     )
                   );
@@ -6730,7 +6732,7 @@
             a
           );
         })(r.Component),
-        Ge =
+        je =
           (a(311),
           a(312),
           (function (e) {
@@ -6767,13 +6769,13 @@
                     if (a.assignees.nodes.length > 0) {
                       var l = a.assignees.nodes[0].name;
                       r = o.a.createElement(
-                        te.a,
+                        W.a,
                         {
                           key: l,
                           placement: "top",
                           style: { marginBottom: "5px" },
                           overlay: o.a.createElement(
-                            ae.a,
+                            Y.a,
                             { id: "tooltip-top" },
                             o.a.createElement(
                               "strong",
@@ -6899,7 +6901,7 @@
               a
             );
           })(r.Component)),
-        Xe = (function (e) {
+        Te = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6933,8 +6935,8 @@
                     o.a.createElement(
                       "div",
                       { className: "issues-body-div" },
-                      Re.data.map(function (e) {
-                        return o.a.createElement(Ge, { issue: e });
+                      Ze.data.map(function (e) {
+                        return o.a.createElement(je, { issue: e });
                       })
                     )
                   );
@@ -6944,7 +6946,7 @@
             a
           );
         })(r.Component),
-        Le =
+        Fe =
           (a(313),
           (function (e) {
             Object(p.a)(a, e);
@@ -6960,16 +6962,16 @@
                     return o.a.createElement(
                       "div",
                       { className: "opensource-main" },
-                      o.a.createElement(V, { theme: this.props.theme }),
-                      o.a.createElement(Ie, { theme: this.props.theme }),
-                      o.a.createElement(je, { theme: this.props.theme }),
-                      o.a.createElement(He, { theme: this.props.theme }),
-                      o.a.createElement(Xe, { theme: this.props.theme }),
-                      o.a.createElement(me, {
+                      o.a.createElement(H, { theme: this.props.theme }),
+                      o.a.createElement(Ue, { theme: this.props.theme }),
+                      o.a.createElement(De, { theme: this.props.theme }),
+                      o.a.createElement(Be, { theme: this.props.theme }),
+                      o.a.createElement(Te, { theme: this.props.theme }),
+                      o.a.createElement(se, {
                         theme: this.props.theme,
                         onToggle: this.props.onToggle,
                       }),
-                      o.a.createElement(de, { theme: this.props.theme })
+                      o.a.createElement(le, { theme: this.props.theme })
                     );
                   },
                 },
@@ -6977,7 +6979,7 @@
               a
             );
           })(r.Component)),
-        Qe = (function (e) {
+        Ie = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -7299,7 +7301,7 @@
             a
           );
         })(r.Component),
-        Pe = (function (e) {
+        ze = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -7554,11 +7556,11 @@
             a
           );
         })(r.Component),
-        Ve = (a(314), I),
-        qe = z,
-        Je = H,
-        We = G,
-        Ye = (function (e) {
+        He = (a(314), U),
+        Ge = R,
+        Xe = B,
+        Le = j,
+        Qe = (function (e) {
           Object(p.a)(r, e);
           var t = Object(u.a)(r);
           function r() {
@@ -7573,7 +7575,7 @@
                   return o.a.createElement(
                     "div",
                     { className: "contact-main" },
-                    o.a.createElement(V, { theme: e }),
+                    o.a.createElement(H, { theme: e }),
                     o.a.createElement(
                       "div",
                       { className: "basic-contact" },
@@ -7587,7 +7589,7 @@
                             "div",
                             { className: "contact-heading-img-div" },
                             o.a.createElement("img", {
-                              src: a(53)("./".concat(Ve.profile_image_path)),
+                              src: a(53)("./".concat(He.profile_image_path)),
                               alt: "",
                             })
                           ),
@@ -7600,7 +7602,7 @@
                                 className: "contact-heading-text",
                                 style: { color: e.text },
                               },
-                              Ve.title
+                              He.title
                             ),
                             o.a.createElement(
                               "p",
@@ -7609,16 +7611,16 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              Ve.description
+                              He.description
                             ),
-                            o.a.createElement(K, { theme: e }),
+                            o.a.createElement(P, { theme: e }),
                             o.a.createElement(
                               "div",
                               { className: "resume-btn-div" },
-                              o.a.createElement(_, {
+                              o.a.createElement(V, {
                                 text: "See My Resume",
                                 newTab: !0,
-                                href: M,
+                                href: y.resumeLink,
                                 theme: e,
                               })
                             )
@@ -7640,7 +7642,7 @@
                                 className: "blog-heading-text",
                                 style: { color: e.text },
                               },
-                              qe.title
+                              Ge.title
                             ),
                             o.a.createElement(
                               "p",
@@ -7648,15 +7650,15 @@
                                 className: "blog-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              qe.subtitle
+                              Ge.subtitle
                             ),
                             o.a.createElement(
                               "div",
                               { className: "blogsite-btn-div" },
-                              o.a.createElement(_, {
+                              o.a.createElement(V, {
                                 text: "Visit My Blogsite",
                                 newTab: !0,
-                                href: qe.link,
+                                href: Ge.link,
                                 theme: e,
                               })
                             )
@@ -7664,7 +7666,7 @@
                           o.a.createElement(
                             "div",
                             { className: "blog-heading-img-div" },
-                            o.a.createElement(Qe, { theme: e })
+                            o.a.createElement(Ie, { theme: e })
                           )
                         )
                       ),
@@ -7677,7 +7679,7 @@
                           o.a.createElement(
                             "div",
                             { className: "contact-heading-img-div" },
-                            o.a.createElement(Pe, { theme: e })
+                            o.a.createElement(ze, { theme: e })
                           ),
                           o.a.createElement(
                             "div",
@@ -7688,7 +7690,7 @@
                                 className: "address-heading-text",
                                 style: { color: e.text },
                               },
-                              Je.title
+                              Xe.title
                             ),
                             o.a.createElement(
                               "p",
@@ -7697,7 +7699,7 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              Je.subtitle
+                              Xe.subtitle
                             ),
                             o.a.createElement(
                               "h1",
@@ -7705,7 +7707,7 @@
                                 className: "address-heading-text",
                                 style: { color: e.text },
                               },
-                              We.title
+                              Le.title
                             ),
                             o.a.createElement(
                               "p",
@@ -7714,15 +7716,15 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              We.subtitle
+                              Le.subtitle
                             ),
                             o.a.createElement(
                               "div",
                               { className: "address-btn-div" },
-                              o.a.createElement(_, {
+                              o.a.createElement(V, {
                                 text: "Visit on Google Maps",
                                 newTab: !0,
-                                href: Je.location_map_link,
+                                href: Xe.location_map_link,
                                 theme: e,
                               })
                             )
@@ -7730,11 +7732,11 @@
                         )
                       )
                     ),
-                    o.a.createElement(me, {
+                    o.a.createElement(se, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    o.a.createElement(de, { theme: this.props.theme })
+                    o.a.createElement(le, { theme: this.props.theme })
                   );
                 },
               },
@@ -7742,7 +7744,7 @@
             r
           );
         })(r.Component),
-        Ke =
+        Pe =
           (a(315),
           (function (e) {
             Object(p.a)(a, e);
@@ -7766,12 +7768,12 @@
                           { className: "dev-icons-languages" },
                           this.props.logos.map(function (e) {
                             return o.a.createElement(
-                              te.a,
+                              W.a,
                               {
                                 key: e.name,
                                 placement: "top",
                                 overlay: o.a.createElement(
-                                  ae.a,
+                                  Y.a,
                                   { id: "tooltip-top" },
                                   o.a.createElement("strong", null, e.name)
                                 ),
@@ -7800,7 +7802,7 @@
             );
           })(r.Component));
       a(316);
-      function _e(e) {
+      function Ve(e) {
         var t = e.repo,
           a = e.theme;
         return o.a.createElement(
@@ -7863,7 +7865,7 @@
                   "Created on ",
                   t.createdAt.split("T")[0]
                 ),
-                o.a.createElement(Ke, {
+                o.a.createElement(Pe, {
                   className: "repo-languages",
                   logos: t.languages,
                 })
@@ -7873,7 +7875,7 @@
         );
       }
       a(317);
-      function $e(e) {
+      function qe(e) {
         var t = e.pub,
           a = e.theme;
         return o.a.createElement(
@@ -7928,8 +7930,8 @@
           )
         );
       }
-      var et = a(124),
-        tt =
+      var Je = a(124),
+        We =
           (a(318),
           (function (e) {
             Object(p.a)(a, e);
@@ -8628,7 +8630,7 @@
               a
             );
           })(r.Component)),
-        at = (function (e) {
+        Ye = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -8643,7 +8645,7 @@
                   return o.a.createElement(
                     "div",
                     { className: "projects-main" },
-                    o.a.createElement(V, { theme: e }),
+                    o.a.createElement(H, { theme: e }),
                     o.a.createElement(
                       "div",
                       { className: "basic-projects" },
@@ -8656,7 +8658,7 @@
                           o.a.createElement(
                             "div",
                             { className: "projects-heading-img-div" },
-                            o.a.createElement(tt, { theme: e })
+                            o.a.createElement(We, { theme: e })
                           ),
                           o.a.createElement(
                             "div",
@@ -8667,7 +8669,7 @@
                                 className: "projects-heading-text",
                                 style: { color: e.text },
                               },
-                              R
+                              Z
                             ),
                             o.a.createElement(
                               "p",
@@ -8676,7 +8678,7 @@
                                   "projects-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              B
+                              N
                             )
                           )
                         )
@@ -8685,18 +8687,18 @@
                     o.a.createElement(
                       "div",
                       { className: "repo-cards-div-main" },
-                      et.data.map(function (t) {
-                        return o.a.createElement(_e, { repo: t, theme: e });
+                      Je.data.map(function (t) {
+                        return o.a.createElement(Ve, { repo: t, theme: e });
                       })
                     ),
-                    o.a.createElement(_, {
+                    o.a.createElement(V, {
                       text: "More Projects",
                       className: "project-button",
-                      href: k,
+                      href: y.githubProfile,
                       newTab: !0,
                       theme: e,
                     }),
-                    F.data.length > 0
+                    S.data.length > 0
                       ? o.a.createElement(
                           "div",
                           { className: "basic-projects" },
@@ -8715,7 +8717,7 @@
                                     className: "publications-heading-text",
                                     style: { color: e.text },
                                   },
-                                  j
+                                  D
                                 ),
                                 o.a.createElement(
                                   "p",
@@ -8724,7 +8726,7 @@
                                       "projects-header-detail-text subTitle",
                                     style: { color: e.secondaryText },
                                   },
-                                  T
+                                  O
                                 )
                               )
                             )
@@ -8734,15 +8736,15 @@
                     o.a.createElement(
                       "div",
                       { className: "repo-cards-div-main" },
-                      F.data.map(function (t) {
-                        return o.a.createElement($e, { pub: t, theme: e });
+                      S.data.map(function (t) {
+                        return o.a.createElement(qe, { pub: t, theme: e });
                       })
                     ),
-                    o.a.createElement(me, {
+                    o.a.createElement(se, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    o.a.createElement(de, { theme: this.props.theme })
+                    o.a.createElement(le, { theme: this.props.theme })
                   );
                 },
               },
@@ -8750,7 +8752,7 @@
             a
           );
         })(r.Component),
-        rt =
+        Ke =
           (a(319),
           (function (e) {
             Object(p.a)(a, e);
@@ -8767,7 +8769,7 @@
                     return o.a.createElement(
                       "div",
                       { className: "error-main" },
-                      o.a.createElement(V, { theme: this.props.theme }),
+                      o.a.createElement(H, { theme: this.props.theme }),
                       o.a.createElement(
                         "div",
                         { className: "error-class" },
@@ -8801,8 +8803,8 @@
                           )
                         )
                       ),
-                      o.a.createElement(me, { theme: this.props.theme }),
-                      o.a.createElement(de, { theme: this.props.theme })
+                      o.a.createElement(se, { theme: this.props.theme }),
+                      o.a.createElement(le, { theme: this.props.theme })
                     );
                   },
                 },
@@ -8810,7 +8812,7 @@
               a
             );
           })(r.Component)),
-        ot = (function (e) {
+        _e = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -8837,7 +8839,7 @@
                               exact: !0,
                               render: function (t) {
                                 return o.a.createElement(
-                                  fe,
+                                  he,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8846,7 +8848,7 @@
                               path: "/home",
                               render: function (t) {
                                 return o.a.createElement(
-                                  ue,
+                                  ne,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8856,7 +8858,7 @@
                               exact: !0,
                               render: function (t) {
                                 return o.a.createElement(
-                                  De,
+                                  we,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8865,7 +8867,7 @@
                               path: "/education",
                               render: function (t) {
                                 return o.a.createElement(
-                                  we,
+                                  be,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8874,7 +8876,7 @@
                               path: "/opensource",
                               render: function (t) {
                                 return o.a.createElement(
-                                  Le,
+                                  Fe,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8883,7 +8885,7 @@
                               path: "/contact",
                               render: function (t) {
                                 return o.a.createElement(
-                                  Ye,
+                                  Qe,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8892,7 +8894,7 @@
                               path: "/splash",
                               render: function (t) {
                                 return o.a.createElement(
-                                  fe,
+                                  he,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8901,7 +8903,7 @@
                               path: "/projects",
                               render: function (t) {
                                 return o.a.createElement(
-                                  at,
+                                  Ye,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8910,7 +8912,7 @@
                               path: "*",
                               render: function (t) {
                                 return o.a.createElement(
-                                  rt,
+                                  Ke,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8932,7 +8934,7 @@
                               exact: !0,
                               render: function (t) {
                                 return o.a.createElement(
-                                  ue,
+                                  ne,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8941,7 +8943,7 @@
                               path: "/home",
                               render: function (t) {
                                 return o.a.createElement(
-                                  ue,
+                                  ne,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8951,7 +8953,7 @@
                               exact: !0,
                               render: function (t) {
                                 return o.a.createElement(
-                                  De,
+                                  we,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8960,7 +8962,7 @@
                               path: "/education",
                               render: function (t) {
                                 return o.a.createElement(
-                                  we,
+                                  be,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8969,7 +8971,7 @@
                               path: "/opensource",
                               render: function (t) {
                                 return o.a.createElement(
-                                  Le,
+                                  Fe,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8978,7 +8980,7 @@
                               path: "/contact",
                               render: function (t) {
                                 return o.a.createElement(
-                                  Ye,
+                                  Qe,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8987,7 +8989,7 @@
                               path: "/projects",
                               render: function (t) {
                                 return o.a.createElement(
-                                  at,
+                                  Ye,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -9001,7 +9003,7 @@
             a
           );
         })(r.Component),
-        st = {
+        $e = {
           body: "#EDF9FE",
           text: "#001C55",
           expTxtColor: "#000a12",
@@ -9014,21 +9016,21 @@
           headerColor: "#0E6BA877",
           splashBg: "#001C55",
         };
-      function lt() {
-        var e = Object(q.a)([
+      function et() {
+        var e = Object(G.a)([
           "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
           ";\n    color: ",
           ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
         ]);
         return (
-          (lt = function () {
+          (et = function () {
             return e;
           }),
           e
         );
       }
-      var nt = Object(J.b)(
-        lt(),
+      var tt = Object(X.b)(
+        et(),
         function (e) {
           return e.theme.body;
         },
@@ -9036,15 +9038,15 @@
           return e.theme.text;
         }
       );
-      var it = function () {
+      var at = function () {
         return o.a.createElement(
-          J.a,
-          { theme: st },
+          X.a,
+          { theme: $e },
           o.a.createElement(
             o.a.Fragment,
             null,
-            o.a.createElement(nt, null),
-            o.a.createElement("div", null, o.a.createElement(ot, { theme: st }))
+            o.a.createElement(tt, null),
+            o.a.createElement("div", null, o.a.createElement(_e, { theme: $e }))
           )
         );
       };
@@ -9056,12 +9058,12 @@
           )
       );
       a(320);
-      var ct = new h.a();
+      var rt = new h.a();
       l.a.render(
         o.a.createElement(
           c.a,
-          { value: ct },
-          o.a.createElement(n.a, { theme: i.a }, o.a.createElement(it, null))
+          { value: rt },
+          o.a.createElement(n.a, { theme: i.a }, o.a.createElement(at, null))
         ),
         document.getElementById("root")
       ),
@@ -9073,4 +9075,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.d070a63b.chunk.js.map
+//# sourceMappingURL=main.9c2d9663.chunk.js.map
