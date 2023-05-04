@@ -528,6 +528,7 @@
               skills: [
                 "\u26a1 Building responsive website front end using React and Angular",
                 "\u26a1 Creating application backend in Node, Express & Spring Boot",
+                "\u26a1 Designing and build RESTful and RPC APIs in Java, Python and Golang",
                 "\u26a1 Conducting unit tests using Postman and curl",
               ],
               softwareSkills: [
@@ -564,6 +565,21 @@
                 {
                   skillName: "Angular",
                   fontAwesomeClassname: "vscode-icons:file-type-angular",
+                  style: {},
+                },
+                {
+                  skillName: "Java",
+                  fontAwesomeClassname: "devicon:java-wordmark",
+                  style: {},
+                },
+                {
+                  skillName: "Python",
+                  fontAwesomeClassname: "devicon:python-wordmark",
+                  style: {},
+                },
+                {
+                  skillName: "Golang",
+                  fontAwesomeClassname: "skill-icons:golang",
                   style: {},
                 },
               ],
@@ -8982,4 +8998,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.c6602780.chunk.js.map
+//# sourceMappingURL=main.40882b1c.chunk.js.map

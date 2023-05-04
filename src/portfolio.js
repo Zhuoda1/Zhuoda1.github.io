@@ -85,6 +85,7 @@ const skills = {
       skills: [
         "⚡ Building responsive website front end using React and Angular",
         "⚡ Creating application backend in Node, Express & Spring Boot",
+        "⚡ Designing and build RESTful and RPC APIs in Java, Python and Golang",
         "⚡ Conducting unit tests using Postman and curl",
       ],
       softwareSkills: [
@@ -137,6 +138,21 @@ const skills = {
           style: {
             // color: "#CC6699",
           },
+        },
+        {
+          skillName: "Java",
+          fontAwesomeClassname: "devicon:java-wordmark",
+          style: {},
+        },
+        {
+          skillName: "Python",
+          fontAwesomeClassname: "devicon:python-wordmark",
+          style: {},
+        },
+        {
+          skillName: "Golang",
+          fontAwesomeClassname: "skill-icons:golang",
+          style: {},
         },
         // {
         //   skillName: "NPM",
