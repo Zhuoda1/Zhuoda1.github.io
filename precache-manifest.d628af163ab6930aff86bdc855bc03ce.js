@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7e1f5c45e44b42b369cf9cf740279a64",
+    "revision": "eadd84c37ab9b5106e21e8325c4997d0",
     "url": "/index.html"
   },
   {
-    "revision": "00f2dd6863a7d9481fe9",
+    "revision": "f5eed0384a8bb8612b6a",
     "url": "/static/css/main.296ae8f7.chunk.css"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.c6cd3dc3.chunk.js"
   },
   {
-    "revision": "00f2dd6863a7d9481fe9",
-    "url": "/static/js/main.b8bb34d0.chunk.js"
+    "revision": "f5eed0384a8bb8612b6a",
+    "url": "/static/js/main.49bad934.chunk.js"
   },
   {
     "revision": "6138eaf4a6c67cbf898e",
@@ -264,8 +264,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/ui_ux_design.d6363089.svg"
   },
   {
-    "revision": "a6b694dc1a5ec4d380d585bc06a6582b",
-    "url": "/static/media/umn_logo.a6b694dc.png"
+    "revision": "96246d8a093f532c2d99c5ccbb8694d1",
+    "url": "/static/media/umn_logo.96246d8a.png"
   },
   {
     "revision": "4589fbc94938e621791f967cdc38393f",
