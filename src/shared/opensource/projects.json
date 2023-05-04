@@ -71,6 +71,20 @@
           "iconifyClass": "logos-java"
         }
       ]
+    },
+    {
+      "id": "R_kgDOH1wzkQ",
+      "name": "Leetcode-Answers",
+      "createdAt": "2022-08-18T09:05:44Z",
+      "url": "https://github.com/Zhuoda1/Leetcode-Answers",
+      "description": "Personal Leetcode Answers",
+      "isFork": false,
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        }
+      ]
     }
   ]
 }
