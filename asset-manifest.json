@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.296ae8f7.chunk.css",
-    "main.js": "/static/js/main.7304ce1b.chunk.js",
-    "main.js.map": "/static/js/main.7304ce1b.chunk.js.map",
+    "main.js": "/static/js/main.b8bb34d0.chunk.js",
+    "main.js.map": "/static/js/main.b8bb34d0.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0403a33d.js",
     "runtime-main.js.map": "/static/js/runtime-main.0403a33d.js.map",
-    "static/js/2.51226d8c.chunk.js": "/static/js/2.51226d8c.chunk.js",
-    "static/js/2.51226d8c.chunk.js.map": "/static/js/2.51226d8c.chunk.js.map",
+    "static/js/2.c6cd3dc3.chunk.js": "/static/js/2.c6cd3dc3.chunk.js",
+    "static/js/2.c6cd3dc3.chunk.js.map": "/static/js/2.c6cd3dc3.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.3bf608b320563b093d39a0231d178753.js": "/precache-manifest.3bf608b320563b093d39a0231d178753.js",
+    "precache-manifest.4e208efc0a4e858afd98c5da64c23367.js": "/precache-manifest.4e208efc0a4e858afd98c5da64c23367.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.296ae8f7.chunk.css.map": "/static/css/main.296ae8f7.chunk.css.map",
     "static/media/index.css": "/static/media/Montserrat-Regular.ee653992.ttf",
@@ -16,6 +16,7 @@
     "static/media/animated_ashutosh.png": "/static/media/animated_ashutosh.eaf02c2d.png",
     "static/media/animated_logo.svg": "/static/media/animated_logo.dcd6dee2.svg",
     "static/media/blogs_image.svg": "/static/media/blogs_image.058eca4c.svg",
+    "static/media/bupt_logo.png": "/static/media/bupt_logo.26da3c6a.png",
     "static/media/cloud_infrastructure.svg": "/static/media/cloud_infrastructure.cacbc42b.svg",
     "static/media/codeInLogo.png": "/static/media/codeInLogo.fee92c18.png",
     "static/media/contactMail.png": "/static/media/contactMail.5f915405.png",
@@ -50,12 +51,13 @@
     "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.3fa54242.svg",
     "static/media/tiktok_logo.png": "/static/media/tiktok_logo.0993e324.png",
     "static/media/ui_ux_design.svg": "/static/media/ui_ux_design.d6363089.svg",
+    "static/media/umn_logo.png": "/static/media/umn_logo.a6b694dc.png",
     "static/media/zhuoda.png": "/static/media/zhuoda.4589fbc9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.0403a33d.js",
-    "static/js/2.51226d8c.chunk.js",
+    "static/js/2.c6cd3dc3.chunk.js",
     "static/css/main.296ae8f7.chunk.css",
-    "static/js/main.7304ce1b.chunk.js"
+    "static/js/main.b8bb34d0.chunk.js"
   ]
 }
