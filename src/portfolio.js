@@ -103,13 +103,6 @@ const skills = {
           },
         },
         {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
-        {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
           style: {
@@ -139,12 +132,19 @@ const skills = {
           },
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
+          skillName: "Angular",
+          fontAwesomeClassname: "vscode-icons:file-type-angular",
           style: {
-            color: "#CB3837",
+            // color: "#CC6699",
           },
         },
+        // {
+        //   skillName: "NPM",
+        //   fontAwesomeClassname: "simple-icons:npm",
+        //   style: {
+        //     color: "#CB3837",
+        //   },
+        // },
         // {
         //   skillName: "Yarn",
         //   fontAwesomeClassname: "simple-icons:yarn",

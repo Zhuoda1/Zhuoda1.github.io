@@ -542,11 +542,6 @@
                   style: { color: "#1572B6" },
                 },
                 {
-                  skillName: "Sass",
-                  fontAwesomeClassname: "simple-icons:sass",
-                  style: { color: "#CC6699" },
-                },
-                {
                   skillName: "JavaScript",
                   fontAwesomeClassname: "simple-icons:javascript",
                   style: { backgroundColor: "#000000", color: "#F7DF1E" },
@@ -567,9 +562,9 @@
                   style: { color: "#8BC34A" },
                 },
                 {
-                  skillName: "NPM",
-                  fontAwesomeClassname: "simple-icons:npm",
-                  style: { color: "#CB3837" },
+                  skillName: "Angular",
+                  fontAwesomeClassname: "vscode-icons:file-type-angular",
+                  style: {},
                 },
               ],
             },
@@ -9060,4 +9055,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.d3170ed5.chunk.js.map
+//# sourceMappingURL=main.d1192e68.chunk.js.map
