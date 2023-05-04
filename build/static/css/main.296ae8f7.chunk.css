@@ -287,6 +287,7 @@ body {
 .greeting-text {
   margin-top: 80px;
   font-size: 70px;
+  line-height: 0.9;
   font-family: Google Sans Bold;
 }
 .greeting-nickname {
@@ -6473,4 +6474,4 @@ canvas {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.68fd73a6.chunk.css.map */
+/*# sourceMappingURL=main.296ae8f7.chunk.css.map */
