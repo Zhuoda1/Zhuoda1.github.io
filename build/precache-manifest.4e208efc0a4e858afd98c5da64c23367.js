@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "36fd3e7436a571d3b39b03b3ce97d97e",
+    revision: "7e1f5c45e44b42b369cf9cf740279a64",
     url: "/index.html",
   },
   {
-    revision: "b03fe43cd175c482d6eb",
+    revision: "00f2dd6863a7d9481fe9",
     url: "/static/css/main.296ae8f7.chunk.css",
   },
   {
-    revision: "75d4360f409a5d6a22b2",
-    url: "/static/js/2.51226d8c.chunk.js",
+    revision: "1aa094a55b9bd278caf5",
+    url: "/static/js/2.c6cd3dc3.chunk.js",
   },
   {
-    revision: "b03fe43cd175c482d6eb",
-    url: "/static/js/main.7304ce1b.chunk.js",
+    revision: "00f2dd6863a7d9481fe9",
+    url: "/static/js/main.b8bb34d0.chunk.js",
   },
   {
     revision: "6138eaf4a6c67cbf898e",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "058eca4cbdc03a1dad9a6bb943ac7831",
     url: "/static/media/blogs_image.058eca4c.svg",
+  },
+  {
+    revision: "26da3c6a38bdc462f2d231e222d47f71",
+    url: "/static/media/bupt_logo.26da3c6a.png",
   },
   {
     revision: "cacbc42b661f39344af81c631d8d36a9",
@@ -258,6 +262,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "d63630893eb8cb64af65f395d393c481",
     url: "/static/media/ui_ux_design.d6363089.svg",
+  },
+  {
+    revision: "a6b694dc1a5ec4d380d585bc06a6582b",
+    url: "/static/media/umn_logo.a6b694dc.png",
   },
   {
     revision: "4589fbc94938e621791f967cdc38393f",
