@@ -352,7 +352,7 @@
       t.exports = a.p + "static/media/ui_ux_design.d6363089.svg";
     },
     function (t, e, a) {
-      t.exports = a.p + "static/media/umn_logo.a6b694dc.png";
+      t.exports = a.p + "static/media/umn_logo.96246d8a.png";
     },
     function (t, e, a) {
       t.exports = a.p + "static/media/zhuoda.4589fbc9.png";
@@ -671,7 +671,7 @@
               alt_name: "bupt_logo",
               duration: "2020 - 2022",
               descriptions: [
-                "\u26a1 Course Completed: Electronic System, Electronic and Circuit Foundation, Signals and Systems Theory, Data Structures and Applications,        Database Technologies and Applications Agile and Lean Development, Digital Circuit and Logic Design, Digital Signal Processing",
+                "\u26a1 Course Completed: Electronic System, Electronic and Circuit, Signals and Systems, Data Structures and Applications,        Database Technologies and Applications, Agile and Lean Development, Digital Circuit and Logic Design, Digital Signal Processing",
                 "\u26a1 Technical GPA: 3.8/4.0",
                 "\u26a1 Rank: 10%",
                 "\u26a1 Transferred to University of Minnesota",
@@ -8610,4 +8610,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.b8bb34d0.chunk.js.map
+//# sourceMappingURL=main.49bad934.chunk.js.map

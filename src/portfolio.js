@@ -412,8 +412,8 @@ const degrees = {
       alt_name: "bupt_logo",
       duration: "2020 - 2022",
       descriptions: [
-        "⚡ Course Completed: Electronic System, Electronic and Circuit Foundation, Signals and Systems Theory, Data Structures and Applications,\
-        Database Technologies and Applications Agile and Lean Development, Digital Circuit and Logic Design, Digital Signal Processing",
+        "⚡ Course Completed: Electronic System, Electronic and Circuit, Signals and Systems, Data Structures and Applications,\
+        Database Technologies and Applications, Agile and Lean Development, Digital Circuit and Logic Design, Digital Signal Processing",
         "⚡ Technical GPA: 3.8/4.0",
         "⚡ Rank: 10%",
         "⚡ Transferred to University of Minnesota",
