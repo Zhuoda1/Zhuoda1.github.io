@@ -397,8 +397,8 @@ const degrees = {
       alt_name: "umnlogo",
       duration: "2022 - 2024",
       descriptions: [
-        "⚡ Course Completed: Machine Architecture and Organizaiton, Algorithms & Data Structure, Internet Programming, Adv. Programming Principles, Discrete Structures",
-        "⚡ Technical GPA: 4.0/4.0",
+        "• Course Completed: Machine Architecture and Organizaiton, Algorithms & Data Structure, Internet Programming, Adv. Programming Principles, Discrete Structures",
+        "• Technical GPA: 4.0/4.0",
         // "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.",
         // "⚡ I was selected for Merit cum Means Scholarship which is given to top 10% of students in college. I have received award from respected director for consistently best performance in academics.",
       ],
@@ -412,11 +412,11 @@ const degrees = {
       alt_name: "bupt_logo",
       duration: "2020 - 2022",
       descriptions: [
-        "⚡ Course Completed: Electronic System, Electronic and Circuit, Signals and Systems, Data Structures and Applications,\
+        "• Course Completed: Electronic System, Electronic and Circuit, Signals and Systems, Data Structures and Applications,\
         Database Technologies and Applications, Agile and Lean Development, Digital Circuit and Logic Design, Digital Signal Processing",
-        "⚡ Technical GPA: 3.8/4.0",
-        "⚡ Rank: 10%",
-        "⚡ Transferred to University of Minnesota",
+        "• Technical GPA: 3.8/4.0",
+        "• Rank: 10%",
+        "• Transferred to University of Minnesota",
       ],
       website_link: "https://www.bupt.edu.cn/",
     },
