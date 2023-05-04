@@ -347,7 +347,7 @@
       e.exports = a.p + "static/media/ui_ux_design.d6363089.svg";
     },
     function (e, t, a) {
-      e.exports = a.p + "static/media/zhuoda.03753f90.png";
+      e.exports = a.p + "static/media/zhuoda.457791cb.png";
     },
     function (e, t, a) {},
     function (e, t, a) {},
@@ -8631,4 +8631,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.2b6b46de.chunk.js.map
+//# sourceMappingURL=main.14703549.chunk.js.map
