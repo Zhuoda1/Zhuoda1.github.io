@@ -492,7 +492,8 @@
         },
         y = {
           title: "Zhuoda Liu",
-          logo_name: "\u5218\u5353\u8fbe",
+          logo_name: "Zhuoda Liu",
+          nickname: "\u5218\u5353\u8fbe",
           subTitle:
             "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
           resumeLink:
@@ -9071,4 +9072,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.b9d4d79c.chunk.js.map
+//# sourceMappingURL=main.050aaa65.chunk.js.map
