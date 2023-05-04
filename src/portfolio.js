@@ -418,7 +418,7 @@ const degrees = {
         "⚡ Rank: 10%",
         "⚡ Transferred to University of Minnesota",
       ],
-      website_link: "https://www.indiana.edu/",
+      website_link: "https://www.bupt.edu.cn/",
     },
   ],
 };

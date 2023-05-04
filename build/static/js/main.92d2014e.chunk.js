@@ -676,7 +676,7 @@
                 "\u26a1 Rank: 10%",
                 "\u26a1 Transferred to University of Minnesota",
               ],
-              website_link: "https://www.indiana.edu/",
+              website_link: "https://www.bupt.edu.cn/",
             },
           ],
         },
@@ -4917,56 +4917,9 @@
               r
             );
           })(r.Component)),
-        ut = (function (t) {
-          Object(p.a)(a, t);
-          var e = Object(u.a)(a);
-          function a() {
-            return Object(m.a)(this, a), e.apply(this, arguments);
-          }
-          return (
-            Object(d.a)(a, [
-              {
-                key: "render",
-                value: function () {
-                  var t = this.props.theme;
-                  return o.a.createElement(
-                    "div",
-                    { className: "main", id: "certs" },
-                    o.a.createElement(
-                      "div",
-                      { className: "certs-header-div" },
-                      o.a.createElement(
-                        b.Fade,
-                        { bottom: !0, duration: 2e3, distance: "20px" },
-                        o.a.createElement(
-                          "h1",
-                          {
-                            className: "certs-header",
-                            style: { color: t.text },
-                          },
-                          "Certifications"
-                        )
-                      )
-                    ),
-                    o.a.createElement(
-                      "div",
-                      { className: "certs-body-div" },
-                      x.certifications.map(function (e) {
-                        return o.a.createElement(dt, {
-                          certificate: e,
-                          theme: t,
-                        });
-                      })
-                    )
-                  );
-                },
-              },
-            ]),
-            a
-          );
-        })(r.Component),
-        pt =
-          (a(211),
+        ut =
+          (r.Component,
+          a(211),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -5028,7 +4981,7 @@
               a
             );
           })(o.a.Component)),
-        gt = (function (t) {
+        pt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -5357,7 +5310,7 @@
             a
           );
         })(r.Component),
-        ft =
+        gt =
           (a(212),
           (function (t) {
             Object(p.a)(a, t);
@@ -5387,7 +5340,7 @@
                             o.a.createElement(
                               "div",
                               { className: "heading-img-div" },
-                              o.a.createElement(gt, { theme: t })
+                              o.a.createElement(pt, { theme: t })
                             ),
                             o.a.createElement(
                               "div",
@@ -5408,16 +5361,13 @@
                                 },
                                 "Basic Qualification and Certifcations"
                               ),
-                              o.a.createElement(pt, {
+                              o.a.createElement(ut, {
                                 logos: w.competitiveSites,
                               })
                             )
                           )
                         ),
-                        o.a.createElement(mt, { theme: this.props.theme }),
-                        x.certifications.length > 0
-                          ? o.a.createElement(ut, { theme: this.props.theme })
-                          : null
+                        o.a.createElement(mt, { theme: this.props.theme })
                       ),
                       o.a.createElement(ot, { theme: this.props.theme }),
                       o.a.createElement(nt, { theme: this.props.theme })
@@ -5428,7 +5378,7 @@
               a
             );
           })(r.Component)),
-        bt =
+        ft =
           (a(213),
           (function (t) {
             Object(p.a)(r, t);
@@ -5530,9 +5480,9 @@
               r
             );
           })(r.Component)),
-        At = (a(214), a(341)),
-        Ct = a(337),
-        yt = (function (t) {
+        bt = (a(214), a(341)),
+        At = a(337),
+        Ct = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -5548,11 +5498,11 @@
                     "div",
                     { className: "experience-accord" },
                     o.a.createElement(
-                      At.a,
+                      bt.a,
                       null,
                       this.props.sections.map(function (e) {
                         return o.a.createElement(
-                          Ct.a,
+                          At.a,
                           {
                             className: "accord-panel",
                             title: e.title,
@@ -5582,7 +5532,7 @@
                             },
                           },
                           e.experiences.map(function (e) {
-                            return o.a.createElement(bt, {
+                            return o.a.createElement(ft, {
                               experience: e,
                               theme: t,
                             });
@@ -5597,7 +5547,7 @@
             a
           );
         })(r.Component),
-        Et =
+        yt =
           (a(215),
           (function (t) {
             Object(p.a)(a, t);
@@ -6047,7 +5997,7 @@
               a
             );
           })(r.Component)),
-        vt = (function (t) {
+        Et = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6075,7 +6025,7 @@
                           o.a.createElement(
                             "div",
                             { className: "experience-heading-img-div" },
-                            o.a.createElement(Et, { theme: t })
+                            o.a.createElement(yt, { theme: t })
                           ),
                           o.a.createElement(
                             "div",
@@ -6109,7 +6059,7 @@
                         )
                       )
                     ),
-                    o.a.createElement(yt, { sections: Z.sections, theme: t }),
+                    o.a.createElement(Ct, { sections: Z.sections, theme: t }),
                     o.a.createElement(ot, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
@@ -6122,9 +6072,9 @@
             a
           );
         })(r.Component),
-        wt = a(67),
-        Mt = (a(307), a(44)),
-        xt = (function (t) {
+        vt = a(67),
+        wt = (a(307), a(44)),
+        Mt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6139,7 +6089,7 @@
                     labels: ["Open", "Merged", "Closed"],
                     datasets: [
                       {
-                        data: [Mt.open, Mt.merged, Mt.closed],
+                        data: [wt.open, wt.merged, wt.closed],
                         backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
                         hoverBackgroundColor: [
                           "#28a745dd",
@@ -6161,7 +6111,7 @@
                         "Pull Request Distribution"
                       )
                     ),
-                    o.a.createElement(wt.a, {
+                    o.a.createElement(vt.a, {
                       data: t,
                       options: {
                         padding: "0",
@@ -6178,8 +6128,8 @@
             a
           );
         })(r.Component),
-        Zt = (a(308), a(51)),
-        kt = (function (t) {
+        xt = (a(308), a(51)),
+        Zt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6194,7 +6144,7 @@
                     labels: ["Open", "Closed"],
                     datasets: [
                       {
-                        data: [Zt.open, Zt.closed],
+                        data: [xt.open, xt.closed],
                         backgroundColor: ["#28a745", "#d73a49"],
                         hoverBackgroundColor: ["#28a745dd", "#d73a49dd"],
                       },
@@ -6212,7 +6162,7 @@
                         "Issue Distribution"
                       )
                     ),
-                    o.a.createElement(wt.a, {
+                    o.a.createElement(vt.a, {
                       data: t,
                       options: {
                         margin: "0",
@@ -6229,7 +6179,7 @@
             a
           );
         })(r.Component),
-        Nt =
+        kt =
           (a(309),
           (function (t) {
             Object(p.a)(a, t);
@@ -6265,8 +6215,8 @@
                       o.a.createElement(
                         "div",
                         { className: "os-charts-body-div" },
-                        o.a.createElement(xt, null),
-                        o.a.createElement(kt, null)
+                        o.a.createElement(Mt, null),
+                        o.a.createElement(Zt, null)
                       )
                     );
                   },
@@ -6275,7 +6225,7 @@
               a
             );
           })(r.Component)),
-        Dt =
+        Nt =
           (a(310),
           a(311),
           (function (t) {
@@ -6334,8 +6284,8 @@
               a
             );
           })(r.Component)),
-        Ot = a(123),
-        Ut = (function (t) {
+        Dt = a(123),
+        Ot = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6366,7 +6316,7 @@
                         )
                       )
                     ),
-                    o.a.createElement(Dt, { logos: Ot.data })
+                    o.a.createElement(Nt, { logos: Dt.data })
                   );
                 },
               },
@@ -6374,7 +6324,7 @@
             a
           );
         })(r.Component),
-        St =
+        Ut =
           (a(312),
           a(313),
           (function (t) {
@@ -6586,7 +6536,7 @@
               a
             );
           })(r.Component)),
-        Rt = (function (t) {
+        St = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6620,8 +6570,8 @@
                     o.a.createElement(
                       "div",
                       { className: "pull-request-body-div" },
-                      Mt.data.map(function (t) {
-                        return o.a.createElement(St, { pullRequest: t });
+                      wt.data.map(function (t) {
+                        return o.a.createElement(Ut, { pullRequest: t });
                       })
                     )
                   );
@@ -6631,7 +6581,7 @@
             a
           );
         })(r.Component),
-        Bt =
+        Rt =
           (a(314),
           a(315),
           (function (t) {
@@ -6800,7 +6750,7 @@
               a
             );
           })(r.Component)),
-        jt = (function (t) {
+        Bt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6834,8 +6784,8 @@
                     o.a.createElement(
                       "div",
                       { className: "issues-body-div" },
-                      Zt.data.map(function (t) {
-                        return o.a.createElement(Bt, { issue: t });
+                      xt.data.map(function (t) {
+                        return o.a.createElement(Rt, { issue: t });
                       })
                     )
                   );
@@ -6845,7 +6795,7 @@
             a
           );
         })(r.Component),
-        Tt =
+        jt =
           (a(316),
           (function (t) {
             Object(p.a)(a, t);
@@ -6862,10 +6812,10 @@
                       "div",
                       { className: "opensource-main" },
                       o.a.createElement(I, { theme: this.props.theme }),
-                      o.a.createElement(Ut, { theme: this.props.theme }),
-                      o.a.createElement(Nt, { theme: this.props.theme }),
-                      o.a.createElement(Rt, { theme: this.props.theme }),
-                      o.a.createElement(jt, { theme: this.props.theme }),
+                      o.a.createElement(Ot, { theme: this.props.theme }),
+                      o.a.createElement(kt, { theme: this.props.theme }),
+                      o.a.createElement(St, { theme: this.props.theme }),
+                      o.a.createElement(Bt, { theme: this.props.theme }),
                       o.a.createElement(ot, {
                         theme: this.props.theme,
                         onToggle: this.props.onToggle,
@@ -6878,7 +6828,7 @@
               a
             );
           })(r.Component)),
-        Ft =
+        Tt =
           (r.Component,
           (function (t) {
             Object(p.a)(a, t);
@@ -7135,10 +7085,10 @@
               a
             );
           })(r.Component)),
-        zt = (a(317), S),
-        It = R,
-        Gt = B,
-        Ht = (function (t) {
+        Ft = (a(317), S),
+        zt = R,
+        It = B,
+        Gt = (function (t) {
           Object(p.a)(r, t);
           var e = Object(u.a)(r);
           function r() {
@@ -7167,7 +7117,7 @@
                             "div",
                             { className: "contact-heading-img-div" },
                             o.a.createElement("img", {
-                              src: a(53)("./".concat(zt.profile_image_path)),
+                              src: a(53)("./".concat(Ft.profile_image_path)),
                               alt: "",
                             })
                           ),
@@ -7180,7 +7130,7 @@
                                 className: "contact-heading-text",
                                 style: { color: t.text },
                               },
-                              zt.title
+                              Ft.title
                             ),
                             o.a.createElement(
                               "p",
@@ -7189,7 +7139,7 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: t.secondaryText },
                               },
-                              zt.description
+                              Ft.description
                             ),
                             o.a.createElement(Q, { theme: t }),
                             o.a.createElement(
@@ -7214,11 +7164,28 @@
                           o.a.createElement(
                             "div",
                             { className: "contact-heading-img-div" },
-                            o.a.createElement(Ft, { theme: t })
+                            o.a.createElement(Tt, { theme: t })
                           ),
                           o.a.createElement(
                             "div",
                             { className: "address-heading-text-div" },
+                            o.a.createElement(
+                              "h1",
+                              {
+                                className: "address-heading-text",
+                                style: { color: t.text },
+                              },
+                              zt.title
+                            ),
+                            o.a.createElement(
+                              "p",
+                              {
+                                className:
+                                  "contact-header-detail-text subTitle",
+                                style: { color: t.secondaryText },
+                              },
+                              zt.subtitle
+                            ),
                             o.a.createElement(
                               "h1",
                               {
@@ -7237,29 +7204,12 @@
                               It.subtitle
                             ),
                             o.a.createElement(
-                              "h1",
-                              {
-                                className: "address-heading-text",
-                                style: { color: t.text },
-                              },
-                              Gt.title
-                            ),
-                            o.a.createElement(
-                              "p",
-                              {
-                                className:
-                                  "contact-header-detail-text subTitle",
-                                style: { color: t.secondaryText },
-                              },
-                              Gt.subtitle
-                            ),
-                            o.a.createElement(
                               "div",
                               { className: "address-btn-div" },
                               o.a.createElement(P, {
                                 text: "Visit on Google Maps",
                                 newTab: !0,
-                                href: It.location_map_link,
+                                href: zt.location_map_link,
                                 theme: t,
                               })
                             )
@@ -7279,7 +7229,7 @@
             r
           );
         })(r.Component),
-        Xt =
+        Ht =
           (a(318),
           (function (t) {
             Object(p.a)(a, t);
@@ -7337,7 +7287,7 @@
             );
           })(r.Component));
       a(319);
-      function Lt(t) {
+      function Xt(t) {
         var e = t.repo,
           a = t.theme;
         return o.a.createElement(
@@ -7400,7 +7350,7 @@
                   "Created on ",
                   e.createdAt.split("T")[0]
                 ),
-                o.a.createElement(Xt, {
+                o.a.createElement(Ht, {
                   className: "repo-languages",
                   logos: e.languages,
                 })
@@ -7410,7 +7360,7 @@
         );
       }
       a(320);
-      function Qt(t) {
+      function Lt(t) {
         var e = t.pub,
           a = t.theme;
         return o.a.createElement(
@@ -7465,8 +7415,8 @@
           )
         );
       }
-      var Pt = a(124),
-        Vt =
+      var Qt = a(124),
+        Pt =
           (a(321),
           (function (t) {
             Object(p.a)(a, t);
@@ -8165,7 +8115,7 @@
               a
             );
           })(r.Component)),
-        qt = (function (t) {
+        Vt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -8193,7 +8143,7 @@
                           o.a.createElement(
                             "div",
                             { className: "projects-heading-img-div" },
-                            o.a.createElement(Vt, { theme: t })
+                            o.a.createElement(Pt, { theme: t })
                           ),
                           o.a.createElement(
                             "div",
@@ -8222,8 +8172,8 @@
                     o.a.createElement(
                       "div",
                       { className: "repo-cards-div-main" },
-                      Pt.data.map(function (e) {
-                        return o.a.createElement(Lt, { repo: e, theme: t });
+                      Qt.data.map(function (e) {
+                        return o.a.createElement(Xt, { repo: e, theme: t });
                       })
                     ),
                     o.a.createElement(P, {
@@ -8272,7 +8222,7 @@
                       "div",
                       { className: "repo-cards-div-main" },
                       U.data.map(function (e) {
-                        return o.a.createElement(Qt, { pub: e, theme: t });
+                        return o.a.createElement(Lt, { pub: e, theme: t });
                       })
                     ),
                     o.a.createElement(ot, {
@@ -8287,7 +8237,7 @@
             a
           );
         })(r.Component),
-        Jt =
+        qt =
           (a(322),
           (function (t) {
             Object(p.a)(a, t);
@@ -8347,7 +8297,7 @@
               a
             );
           })(r.Component)),
-        Wt = (function (t) {
+        Jt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -8393,7 +8343,7 @@
                               exact: !0,
                               render: function (e) {
                                 return o.a.createElement(
-                                  vt,
+                                  Et,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8402,7 +8352,7 @@
                               path: "/education",
                               render: function (e) {
                                 return o.a.createElement(
-                                  ft,
+                                  gt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8411,7 +8361,7 @@
                               path: "/opensource",
                               render: function (e) {
                                 return o.a.createElement(
-                                  Tt,
+                                  jt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8420,7 +8370,7 @@
                               path: "/contact",
                               render: function (e) {
                                 return o.a.createElement(
-                                  Ht,
+                                  Gt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8438,7 +8388,7 @@
                               path: "/projects",
                               render: function (e) {
                                 return o.a.createElement(
-                                  qt,
+                                  Vt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8447,7 +8397,7 @@
                               path: "*",
                               render: function (e) {
                                 return o.a.createElement(
-                                  Jt,
+                                  qt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8488,7 +8438,7 @@
                               exact: !0,
                               render: function (e) {
                                 return o.a.createElement(
-                                  vt,
+                                  Et,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8497,7 +8447,7 @@
                               path: "/education",
                               render: function (e) {
                                 return o.a.createElement(
-                                  ft,
+                                  gt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8506,7 +8456,7 @@
                               path: "/opensource",
                               render: function (e) {
                                 return o.a.createElement(
-                                  Tt,
+                                  jt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8515,7 +8465,7 @@
                               path: "/contact",
                               render: function (e) {
                                 return o.a.createElement(
-                                  Ht,
+                                  Gt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8524,7 +8474,7 @@
                               path: "/projects",
                               render: function (e) {
                                 return o.a.createElement(
-                                  qt,
+                                  Vt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8538,7 +8488,7 @@
             a
           );
         })(r.Component),
-        Yt = {
+        Wt = {
           body: "#EDF9FE",
           text: "#001C55",
           expTxtColor: "#000a12",
@@ -8551,21 +8501,21 @@
           headerColor: "#0E6BA877",
           splashBg: "#001C55",
         };
-      function Kt() {
+      function Yt() {
         var t = Object(G.a)([
           "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
           ";\n    color: ",
           ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
         ]);
         return (
-          (Kt = function () {
+          (Yt = function () {
             return t;
           }),
           t
         );
       }
-      var _t = Object(H.b)(
-        Kt(),
+      var Kt = Object(H.b)(
+        Yt(),
         function (t) {
           return t.theme.body;
         },
@@ -8573,15 +8523,15 @@
           return t.theme.text;
         }
       );
-      var $t = function () {
+      var _t = function () {
         return o.a.createElement(
           H.a,
-          { theme: Yt },
+          { theme: Wt },
           o.a.createElement(
             o.a.Fragment,
             null,
-            o.a.createElement(_t, null),
-            o.a.createElement("div", null, o.a.createElement(Wt, { theme: Yt }))
+            o.a.createElement(Kt, null),
+            o.a.createElement("div", null, o.a.createElement(Jt, { theme: Wt }))
           )
         );
       };
@@ -8593,12 +8543,12 @@
           )
       );
       a(323);
-      var te = new h.a();
+      var $t = new h.a();
       s.a.render(
         o.a.createElement(
           c.a,
-          { value: te },
-          o.a.createElement(l.a, { theme: i.a }, o.a.createElement($t, null))
+          { value: $t },
+          o.a.createElement(l.a, { theme: i.a }, o.a.createElement(_t, null))
         ),
         document.getElementById("root")
       ),
@@ -8610,4 +8560,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.49bad934.chunk.js.map
+//# sourceMappingURL=main.92d2014e.chunk.js.map
