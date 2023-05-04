@@ -19,9 +19,9 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Zhuoda Liu",
+  title: "刘卓达",
   logo_name: "Zhuoda Liu",
-  nickname: "刘卓达",
+  nickname: "Zhuoda Liu",
   subTitle:
     "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
   resumeLink:
