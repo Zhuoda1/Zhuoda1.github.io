@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    revision: "d9395d25ad3e6fe2547bbfc1879ba7a2",
+    revision: "2f372c554c6f9e292f39ee3635e9adce",
     url: "/index.html",
   },
   {
-    revision: "2b6643e2bdb83feb3369",
+    revision: "64ce682a1a7f3b911cd4",
     url: "/static/css/main.296ae8f7.chunk.css",
   },
   {
-    revision: "1aa094a55b9bd278caf5",
-    url: "/static/js/2.c6cd3dc3.chunk.js",
+    revision: "b6907d2a1affd4c0fbe4",
+    url: "/static/js/2.d2f9e73b.chunk.js",
   },
   {
-    revision: "2b6643e2bdb83feb3369",
-    url: "/static/js/main.d1aeb811.chunk.js",
+    revision: "64ce682a1a7f3b911cd4",
+    url: "/static/js/main.80a46485.chunk.js",
   },
   {
     revision: "6138eaf4a6c67cbf898e",
@@ -210,6 +210,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     revision: "5b4a6449747ec61a6d9aa874f2a9ceba",
     url: "/static/media/jsFramework.5b4a6449.svg",
+  },
+  {
+    revision: "ffd8ca509bcb40c2f4ffd7619c84ebad",
+    url: "/static/media/laiye_logo.ffd8ca50.png",
   },
   {
     revision: "c597fbded5de799dfb9abc3fc4f1c26f",

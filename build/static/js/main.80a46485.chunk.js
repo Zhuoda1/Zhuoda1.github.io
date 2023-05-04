@@ -50,25 +50,26 @@
         "./intel_logo.jpg": 187,
         "./iu_logo.png": 188,
         "./jsFramework.svg": 189,
-        "./legato_logo.png": 190,
-        "./manOnTable.svg": 191,
-        "./microsoft_logo.png": 192,
-        "./mozilla_logo.png": 193,
-        "./muffito_logo.png": 194,
-        "./nextuLogo.jpg": 195,
-        "./nptel_logo.png": 196,
-        "./portfolio.gif": 197,
-        "./programmer.svg": 198,
-        "./projects_image.svg": 199,
-        "./pwa.png": 200,
-        "./saayaHealthLogo.png": 201,
-        "./stanford_logo.png": 202,
-        "./talksCardBack.svg": 203,
-        "./talksCardBackAlt.svg": 204,
-        "./tiktok_logo.png": 205,
-        "./ui_ux_design.svg": 206,
-        "./umn_logo.png": 207,
-        "./zhuoda.png": 208,
+        "./laiye_logo.png": 190,
+        "./legato_logo.png": 191,
+        "./manOnTable.svg": 192,
+        "./microsoft_logo.png": 193,
+        "./mozilla_logo.png": 194,
+        "./muffito_logo.png": 195,
+        "./nextuLogo.jpg": 196,
+        "./nptel_logo.png": 197,
+        "./portfolio.gif": 198,
+        "./programmer.svg": 199,
+        "./projects_image.svg": 200,
+        "./pwa.png": 201,
+        "./saayaHealthLogo.png": 202,
+        "./stanford_logo.png": 203,
+        "./talksCardBack.svg": 204,
+        "./talksCardBackAlt.svg": 205,
+        "./tiktok_logo.png": 206,
+        "./ui_ux_design.svg": 207,
+        "./umn_logo.png": 208,
+        "./zhuoda.png": 209,
       };
       function s(t) {
         var e = n(t);
@@ -172,7 +173,7 @@
     ,
     ,
     function (t, e, a) {
-      t.exports = a(325);
+      t.exports = a(326);
     },
     ,
     ,
@@ -295,6 +296,9 @@
     },
     function (t, e, a) {
       t.exports = a.p + "static/media/jsFramework.5b4a6449.svg";
+    },
+    function (t, e, a) {
+      t.exports = a.p + "static/media/laiye_logo.ffd8ca50.png";
     },
     function (t, e, a) {
       t.exports = a.p + "static/media/legato_logo.c597fbde.png";
@@ -480,8 +484,8 @@
         s = a.n(r),
         n = a(16),
         o = a.n(n),
-        l = a(339),
-        i = a(326),
+        l = a(340),
+        i = a(327),
         c = a(35),
         h = a(126),
         m = (a(134), a(135), a(1)),
@@ -1672,8 +1676,8 @@
         );
       }
       a(92), a(153);
-      var J = a(338),
-        W = a(340),
+      var J = a(339),
+        W = a(341),
         Y = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
@@ -4705,8 +4709,8 @@
           );
         })(r.Component),
         dt =
-          (a(209),
-          a(210),
+          (a(210),
+          a(211),
           (function (t) {
             Object(p.a)(r, t);
             var e = Object(u.a)(r);
@@ -4795,7 +4799,7 @@
           })(r.Component)),
         ut =
           (r.Component,
-          a(211),
+          a(212),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -5187,7 +5191,7 @@
           );
         })(r.Component),
         gt =
-          (a(212),
+          (a(213),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -5255,7 +5259,7 @@
             );
           })(r.Component)),
         ft =
-          (a(213),
+          (a(214),
           (function (t) {
             Object(p.a)(r, t);
             var e = Object(u.a)(r);
@@ -5356,8 +5360,8 @@
               r
             );
           })(r.Component)),
-        bt = (a(214), a(341)),
-        At = a(337),
+        bt = (a(215), a(342)),
+        At = a(338),
         Ct = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
@@ -5424,7 +5428,7 @@
           );
         })(r.Component),
         Et =
-          (a(215),
+          (a(216),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -5949,7 +5953,7 @@
           );
         })(r.Component),
         vt = a(67),
-        wt = (a(307), a(44)),
+        wt = (a(308), a(44)),
         Mt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
@@ -6004,7 +6008,7 @@
             a
           );
         })(r.Component),
-        xt = (a(308), a(51)),
+        xt = (a(309), a(51)),
         Zt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
@@ -6056,7 +6060,7 @@
           );
         })(r.Component),
         kt =
-          (a(309),
+          (a(310),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -6102,8 +6106,8 @@
             );
           })(r.Component)),
         Nt =
-          (a(310),
-          a(311),
+          (a(311),
+          a(312),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -6201,8 +6205,8 @@
           );
         })(r.Component),
         Ut =
-          (a(312),
-          a(313),
+          (a(313),
+          a(314),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -6458,8 +6462,8 @@
           );
         })(r.Component),
         Rt =
-          (a(314),
-          a(315),
+          (a(315),
+          a(316),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -6672,7 +6676,7 @@
           );
         })(r.Component),
         jt =
-          (a(316),
+          (a(317),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -6961,7 +6965,7 @@
               a
             );
           })(r.Component)),
-        Ft = (a(317), S),
+        Ft = (a(318), S),
         zt = R,
         Gt = B,
         It = (function (t) {
@@ -7106,7 +7110,7 @@
           );
         })(r.Component),
         Ht =
-          (a(318),
+          (a(319),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -7162,7 +7166,7 @@
               a
             );
           })(r.Component));
-      a(319);
+      a(320);
       function Xt(t) {
         var e = t.repo,
           a = t.theme;
@@ -7235,7 +7239,7 @@
           )
         );
       }
-      a(320);
+      a(321);
       function Lt(t) {
         var e = t.pub,
           a = t.theme;
@@ -7293,7 +7297,7 @@
       }
       var Qt = a(124),
         Pt =
-          (a(321),
+          (a(322),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -8114,7 +8118,7 @@
           );
         })(r.Component),
         qt =
-          (a(322),
+          (a(323),
           (function (t) {
             Object(p.a)(a, t);
             var e = Object(u.a)(a);
@@ -8418,7 +8422,7 @@
             /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
           )
       );
-      a(323);
+      a(324);
       var $t = new h.a();
       o.a.render(
         s.a.createElement(
@@ -8436,4 +8440,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.d1aeb811.chunk.js.map
+//# sourceMappingURL=main.80a46485.chunk.js.map
