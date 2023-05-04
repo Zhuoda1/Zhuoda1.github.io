@@ -177,7 +177,13 @@ class Experience extends Component {
                   className="experience-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
-                  {experience["description"]}
+                  {experience.descriptions.map((sentence) => {
+                    return (
+                      <p className="content-list" style={{ color: theme.text }}>
+                        {sentence}
+                      </p>
+                    );
+                  })}
                 </p>
               </div>
             </div>

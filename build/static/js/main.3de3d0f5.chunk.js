@@ -813,8 +813,13 @@
                   logo_path: "laiye_logo.png",
                   duration: "July 2022 - Aug 2022",
                   location: "Beijing, China",
-                  description:
-                    "\u2022 Designed, built and managed a full-service machine learning platform that provides training, annotation, testing and inference capabilities for machine learning applications in collaboration with a 20 members team.             \u2022 Developed gRPC APIs in Golang, conducted unit tests using curl and Postman, deployed CI process utilizing Jenkins.            \u2022 Strengthened the orchestration for deployment, scaling and management of Docker containers using Kubernetes.            \u2022 Saved thousands of dollars of losses in late response to GPU device failures by monitoring devices and sending alerts automatically through Grafana based on a Prometheus database.            \u2022 Reduced response time by over 70% by restructuring database queries to a NoSQL database.",
+                  descriptions: [
+                    "\u2022 Designed, built and managed a full-service machine learning platform that provides training, annotation, testing and inference capabilities for machine learning applications in collaboration with a 20 members team.",
+                    "\u2022 Developed gRPC APIs in Golang, conducted unit tests using curl and Postman, deployed CI process utilizing Jenkins.",
+                    "\u2022 Strengthened the orchestration for deployment, scaling and management of Docker containers using Kubernetes.",
+                    "\u2022 Saved thousands of dollars of losses in late response to GPU device failures by monitoring devices and sending alerts automatically through Grafana based on a Prometheus database.",
+                    "\u2022 Reduced response time by over 70% by restructuring database queries to a NoSQL database.",
+                  ],
                   color: "#000000",
                 },
               ],
@@ -5933,7 +5938,16 @@
                                   "experience-header-detail-text subTitle",
                                 style: { color: t.secondaryText },
                               },
-                              Z.description
+                              Z.descriptions.map(function (e) {
+                                return s.a.createElement(
+                                  "p",
+                                  {
+                                    className: "content-list",
+                                    style: { color: t.text },
+                                  },
+                                  e
+                                );
+                              })
                             )
                           )
                         )
@@ -8440,4 +8454,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.80a46485.chunk.js.map
+//# sourceMappingURL=main.3de3d0f5.chunk.js.map

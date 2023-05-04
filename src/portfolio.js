@@ -592,12 +592,13 @@ const experience = {
           logo_path: "laiye_logo.png",
           duration: "July 2022 - Aug 2022",
           location: "Beijing, China",
-          description:
-            "• Designed, built and managed a full-service machine learning platform that provides training, annotation, testing and inference capabilities for machine learning applications in collaboration with a 20 members team. \
-            • Developed gRPC APIs in Golang, conducted unit tests using curl and Postman, deployed CI process utilizing Jenkins.\
-            • Strengthened the orchestration for deployment, scaling and management of Docker containers using Kubernetes.\
-            • Saved thousands of dollars of losses in late response to GPU device failures by monitoring devices and sending alerts automatically through Grafana based on a Prometheus database.\
-            • Reduced response time by over 70% by restructuring database queries to a NoSQL database.",
+          descriptions: [
+            "• Designed, built and managed a full-service machine learning platform that provides training, annotation, testing and inference capabilities for machine learning applications in collaboration with a 20 members team.",
+            "• Developed gRPC APIs in Golang, conducted unit tests using curl and Postman, deployed CI process utilizing Jenkins.",
+            "• Strengthened the orchestration for deployment, scaling and management of Docker containers using Kubernetes.",
+            "• Saved thousands of dollars of losses in late response to GPU device failures by monitoring devices and sending alerts automatically through Grafana based on a Prometheus database.",
+            "• Reduced response time by over 70% by restructuring database queries to a NoSQL database.",
+          ],
           color: "#000000",
         },
         // {
