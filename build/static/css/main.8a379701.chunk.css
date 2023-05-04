@@ -590,10 +590,6 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.raw_logo {
-  height: 305;
-  width: 440;
-}
 .educations-header {
   font-size: 40px;
   line-height: 1.1;
@@ -6474,4 +6470,4 @@ canvas {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.553d86f4.chunk.css.map */
+/*# sourceMappingURL=main.8a379701.chunk.css.map */
