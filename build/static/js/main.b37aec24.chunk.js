@@ -1325,26 +1325,6 @@
                             o.a.createElement(
                               g.c,
                               {
-                                to: "/opensource",
-                                tag: g.b,
-                                activeStyle: { fontWeight: "bold" },
-                                style: { color: e.text },
-                                onMouseEnter: function (t) {
-                                  return Q(t, e.highlight);
-                                },
-                                onMouseOut: function (e) {
-                                  return P(e);
-                                },
-                              },
-                              "Open Source"
-                            )
-                          ),
-                          o.a.createElement(
-                            "li",
-                            null,
-                            o.a.createElement(
-                              g.c,
-                              {
                                 to: "/contact",
                                 tag: g.b,
                                 activeStyle: { fontWeight: "bold" },
@@ -9117,4 +9097,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.ebbdee58.chunk.js.map
+//# sourceMappingURL=main.b37aec24.chunk.js.map
