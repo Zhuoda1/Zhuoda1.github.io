@@ -72,10 +72,10 @@
         "./zhuoda.png": 209,
       };
       function s(t) {
-        var e = n(t);
+        var e = o(t);
         return a(e);
       }
-      function n(t) {
+      function o(t) {
         if (!a.o(r, t)) {
           var e = new Error("Cannot find module '" + t + "'");
           throw ((e.code = "MODULE_NOT_FOUND"), e);
@@ -85,7 +85,7 @@
       (s.keys = function () {
         return Object.keys(r);
       }),
-        (s.resolve = n),
+        (s.resolve = o),
         (t.exports = s),
         (s.id = 53);
     },
@@ -482,8 +482,8 @@
       a.r(e);
       var r = a(0),
         s = a.n(r),
-        n = a(16),
-        o = a.n(n),
+        o = a(16),
+        n = a.n(o),
         l = a(340),
         i = a(327),
         c = a(35),
@@ -828,78 +828,26 @@
         },
         k = "Projects",
         N =
-          "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
-        D = "Publications",
-        O =
-          "I have worked on and published a few research papers and publications of my own.",
-        U = {
-          data: [
-            {
-              id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-              name: "Artificial Intelligence Paper",
-              createdAt: "2020-03-06T16:26:54Z",
-              description:
-                "Paper Written on Artificial Intelligence published in xyz ",
-              url:
-                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-            },
-            {
-              id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-              name: "Artificial Intelligence Paper",
-              createdAt: "2020-03-06T16:26:54Z",
-              description:
-                "Paper Written on Artificial Intelligence published in xyz ",
-              url:
-                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-            },
-            {
-              id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-              name: "Artificial Intelligence Paper",
-              createdAt: "2020-03-06T16:26:54Z",
-              description:
-                "Paper Written on Artificial Intelligence published in xyz ",
-              url:
-                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-            },
-            {
-              id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-              name: "Artificial Intelligence Paper",
-              createdAt: "2020-03-06T16:26:54Z",
-              description:
-                "Paper Written on Artificial Intelligence published in xyz ",
-              url:
-                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-            },
-            {
-              id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
-              name: "Artificial Intelligence Paper",
-              createdAt: "2020-03-06T16:26:54Z",
-              description:
-                "Paper Written on Artificial Intelligence published in xyz ",
-              url:
-                "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-            },
-          ],
-        },
-        S = {
+          "My projects makes use of vast variety of latest technology tools. My best experience is to create Full Stack projects and deploy them to web applications using cloud infrastructure.",
+        D = {
           title: "Contact Me",
           profile_image_path: "zhuoda.png",
           description:
             "You can reach me at zhuodaliu0@gmail.com or through Linkedin",
         },
-        R = {
+        O = {
           title: "Address",
           subtitle: "2929 University Ave SE, Minneapolis, MN, 55414",
           avatar_image_path: "address_image.svg",
           location_map_link:
             "https://www.google.com/maps/place/2929+University+Ave+SE,+Minneapolis,+MN+55414",
         },
-        B = { title: "", subtitle: "" },
-        j = a(108);
-      var T = function () {
+        U = { title: "", subtitle: "" },
+        S = a(108);
+      var R = function () {
           var t, e, a;
           return s.a.createElement(
-            j.a,
+            S.a,
             null,
             s.a.createElement("title", null, C.title),
             s.a.createElement("meta", {
@@ -938,13 +886,13 @@
             })
           );
         },
-        F = function (t, e) {
+        B = function (t, e) {
           t.target.style.backgroundColor = e;
         },
-        z = function (t) {
+        j = function (t) {
           t.target.style.backgroundColor = "transparent";
         },
-        G = (function (t) {
+        T = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -960,7 +908,7 @@
                   return s.a.createElement(
                     b.Fade,
                     { top: !0, duration: 1e3, distance: "20px" },
-                    s.a.createElement(T, null),
+                    s.a.createElement(R, null),
                     s.a.createElement(
                       "div",
                       null,
@@ -1016,10 +964,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: t.text },
                                 onMouseEnter: function (e) {
-                                  return F(e, t.highlight);
+                                  return B(e, t.highlight);
                                 },
                                 onMouseOut: function (t) {
-                                  return z(t);
+                                  return j(t);
                                 },
                               },
                               "Home"
@@ -1036,10 +984,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: t.text },
                                 onMouseEnter: function (e) {
-                                  return F(e, t.highlight);
+                                  return B(e, t.highlight);
                                 },
                                 onMouseOut: function (t) {
-                                  return z(t);
+                                  return j(t);
                                 },
                               },
                               "Education"
@@ -1056,10 +1004,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: t.text },
                                 onMouseEnter: function (e) {
-                                  return F(e, t.highlight);
+                                  return B(e, t.highlight);
                                 },
                                 onMouseOut: function (t) {
-                                  return z(t);
+                                  return j(t);
                                 },
                               },
                               "Experience"
@@ -1076,10 +1024,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: t.text },
                                 onMouseEnter: function (e) {
-                                  return F(e, t.highlight);
+                                  return B(e, t.highlight);
                                 },
                                 onMouseOut: function (t) {
-                                  return z(t);
+                                  return j(t);
                                 },
                               },
                               "Projects"
@@ -1096,10 +1044,10 @@
                                 activeStyle: { fontWeight: "bold" },
                                 style: { color: t.text },
                                 onMouseEnter: function (e) {
-                                  return F(e, t.highlight);
+                                  return B(e, t.highlight);
                                 },
                                 onMouseOut: function (t) {
-                                  return z(t);
+                                  return j(t);
                                 },
                               },
                               "Contact Me"
@@ -1115,23 +1063,23 @@
             a
           );
         })(r.Component),
-        I = (a(150), a(61)),
-        H = (a(151), a(37));
-      function X() {
-        var t = Object(I.a)([
+        F = (a(150), a(61)),
+        z = (a(151), a(37));
+      function G() {
+        var t = Object(F.a)([
           "\n  i {\n    background-color: ",
           ";\n  }\n  &:hover i {\n    background-color: ",
           ";\n    transition: 0.3s ease-in;\n  }\n",
         ]);
         return (
-          (X = function () {
+          (G = function () {
             return t;
           }),
           t
         );
       }
-      var L = H.c.span(
-        X(),
+      var H = z.c.span(
+        G(),
         function (t) {
           return t.backgroundColor;
         },
@@ -1139,7 +1087,7 @@
           return t.theme.text;
         }
       );
-      function Q(t) {
+      function I(t) {
         return s.a.createElement(
           "div",
           { className: "social-media-div" },
@@ -1153,7 +1101,7 @@
                 rel: "noopener noreferrer",
               },
               s.a.createElement(
-                L,
+                H,
                 Object.assign({}, e, t),
                 s.a.createElement("i", {
                   className: "fab ".concat(e.fontAwesomeIcon),
@@ -1164,12 +1112,12 @@
         );
       }
       a(152);
-      function P(t) {
+      function X(t) {
         var e = t.text,
           a = t.className,
           r = t.href,
-          n = t.newTab,
-          o = t.theme;
+          o = t.newTab,
+          n = t.theme;
         return s.a.createElement(
           "div",
           { className: a },
@@ -1178,30 +1126,30 @@
             {
               class: "main-button",
               href: r,
-              target: n && "_blank",
+              target: o && "_blank",
               style: {
-                color: o.body,
-                backgroundColor: o.text,
-                border: "solid 1px ".concat(o.text),
+                color: n.body,
+                backgroundColor: n.text,
+                border: "solid 1px ".concat(n.text),
               },
               onMouseEnter: function (t) {
                 return (function (t, e, a) {
                   var r = t.target;
                   (r.style.color = e), (r.style.backgroundColor = a);
-                })(t, o.text, o.body);
+                })(t, n.text, n.body);
               },
               onMouseOut: function (t) {
                 return (function (t, e, a) {
                   var r = t.target;
                   (r.style.color = e), (r.style.backgroundColor = a);
-                })(t, o.body, o.text);
+                })(t, n.body, n.text);
               },
             },
             e
           )
         );
       }
-      var V = (function (t) {
+      var L = (function (t) {
         Object(p.a)(a, t);
         var e = Object(u.a)(a);
         function a() {
@@ -1618,7 +1566,7 @@
           a
         );
       })(r.Component);
-      function q(t) {
+      function Q(t) {
         var e = t.theme;
         return s.a.createElement(
           b.Fade,
@@ -1657,11 +1605,11 @@
                     },
                     E.subTitle
                   ),
-                  s.a.createElement(Q, { theme: e }),
+                  s.a.createElement(I, { theme: e }),
                   s.a.createElement(
                     "div",
                     { className: "portfolio-repo-btn-div" },
-                    s.a.createElement(P, {
+                    s.a.createElement(X, {
                       text: "\u2b50 Star Me On Github",
                       newTab: !0,
                       href: E.portfolio_repository,
@@ -1674,16 +1622,16 @@
               s.a.createElement(
                 "div",
                 { className: "greeting-image-div" },
-                s.a.createElement(V, { theme: e })
+                s.a.createElement(L, { theme: e })
               )
             )
           )
         );
       }
       a(92), a(153);
-      var J = a(339),
-        W = a(341),
-        Y = (function (t) {
+      var P = a(339),
+        V = a(341),
+        q = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -1705,12 +1653,12 @@
                         { className: "dev-icons" },
                         this.props.logos.map(function (t) {
                           return s.a.createElement(
-                            J.a,
+                            P.a,
                             {
                               key: t.skillName,
                               placement: "top",
                               overlay: s.a.createElement(
-                                W.a,
+                                V.a,
                                 { id: "tooltip-top" },
                                 s.a.createElement("strong", null, t.skillName)
                               ),
@@ -1739,7 +1687,7 @@
             a
           );
         })(s.a.Component),
-        K = (function (t) {
+        J = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -2127,7 +2075,7 @@
             a
           );
         })(r.Component),
-        _ = (function (t) {
+        W = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -2438,7 +2386,7 @@
             a
           );
         })(r.Component),
-        $ = (function (t) {
+        Y = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -2812,7 +2760,7 @@
             a
           );
         })(r.Component),
-        tt = (function (t) {
+        K = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -4024,16 +3972,16 @@
             a
           );
         })(r.Component);
-      function et(t) {
+      function _(t) {
         return "DataScienceImg" === t.fileName
-          ? s.a.createElement(K, { theme: t.theme })
+          ? s.a.createElement(J, { theme: t.theme })
           : "FullStackImg" === t.fileName
-          ? s.a.createElement(_, { theme: t.theme })
+          ? s.a.createElement(W, { theme: t.theme })
           : "CloudInfraImg" === t.fileName
-          ? s.a.createElement($, { theme: t.theme })
-          : s.a.createElement(tt, { theme: t.theme });
+          ? s.a.createElement(Y, { theme: t.theme })
+          : s.a.createElement(K, { theme: t.theme });
       }
-      var at = (function (t) {
+      var $ = (function (t) {
         Object(p.a)(a, t);
         var e = Object(u.a)(a);
         function a() {
@@ -4058,7 +4006,7 @@
                         s.a.createElement(
                           "div",
                           { className: "skills-image-div" },
-                          s.a.createElement(et, {
+                          s.a.createElement(_, {
                             fileName: e.fileName,
                             theme: t,
                           })
@@ -4082,7 +4030,7 @@
                         s.a.createElement(
                           b.Fade,
                           { right: !0, duration: 1500 },
-                          s.a.createElement(Y, { logos: e.softwareSkills })
+                          s.a.createElement(q, { logos: e.softwareSkills })
                         ),
                         s.a.createElement(
                           b.Fade,
@@ -4112,7 +4060,7 @@
           a
         );
       })(r.Component);
-      function rt(t) {
+      function tt(t) {
         var e = t.theme;
         return s.a.createElement(
           "div",
@@ -4130,11 +4078,11 @@
               )
             )
           ),
-          s.a.createElement(at, { theme: e })
+          s.a.createElement($, { theme: e })
         );
       }
       a(155);
-      function st(t) {
+      function et(t) {
         return s.a.createElement(
           "div",
           { className: "footer-div" },
@@ -4154,7 +4102,7 @@
         );
       }
       a(156);
-      function nt(t) {
+      function at(t) {
         var e = t.theme;
         window.onscroll = function () {
           document.body.scrollTop > 30 ||
@@ -4202,7 +4150,7 @@
           })
         );
       }
-      var ot = (function (t) {
+      var rt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -4216,11 +4164,11 @@
                   return s.a.createElement(
                     "div",
                     null,
-                    s.a.createElement(G, { theme: this.props.theme }),
-                    s.a.createElement(q, { theme: this.props.theme }),
-                    s.a.createElement(rt, { theme: this.props.theme }),
-                    s.a.createElement(st, { theme: this.props.theme }),
-                    s.a.createElement(nt, { theme: this.props.theme })
+                    s.a.createElement(T, { theme: this.props.theme }),
+                    s.a.createElement(Q, { theme: this.props.theme }),
+                    s.a.createElement(tt, { theme: this.props.theme }),
+                    s.a.createElement(et, { theme: this.props.theme }),
+                    s.a.createElement(at, { theme: this.props.theme })
                   );
                 },
               },
@@ -4228,7 +4176,7 @@
             a
           );
         })(r.Component),
-        lt =
+        st =
           (a(157),
           a(158),
           (function (t) {
@@ -4482,7 +4430,7 @@
               a
             );
           })(s.a.Component));
-      function it(t) {
+      function ot(t) {
         return s.a.createElement(
           "div",
           { className: "logo_wrapper" },
@@ -4492,11 +4440,11 @@
               className: "screen",
               style: { backgroundColor: t.theme.splashBg },
             },
-            s.a.createElement(lt, { id: "logo", theme: t.theme })
+            s.a.createElement(st, { id: "logo", theme: t.theme })
           )
         );
       }
-      var ct = (function (t) {
+      var nt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a(t) {
@@ -4529,14 +4477,14 @@
                 value: function () {
                   return this.state.redirect
                     ? s.a.createElement(f.a, { to: "/home" })
-                    : s.a.createElement(it, { theme: this.props.theme });
+                    : s.a.createElement(ot, { theme: this.props.theme });
                 },
               },
             ]),
             a
           );
         })(r.Component),
-        ht =
+        lt =
           (a(159),
           a(160),
           (function (t) {
@@ -4668,7 +4616,7 @@
               r
             );
           })(r.Component)),
-        mt = (function (t) {
+        it = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -4703,7 +4651,7 @@
                       "div",
                       { className: "educations-body-div" },
                       M.degrees.map(function (e) {
-                        return s.a.createElement(ht, { degree: e, theme: t });
+                        return s.a.createElement(lt, { degree: e, theme: t });
                       })
                     )
                   );
@@ -4713,7 +4661,7 @@
             a
           );
         })(r.Component),
-        dt =
+        ct =
           (a(210),
           a(211),
           (function (t) {
@@ -4802,7 +4750,7 @@
               r
             );
           })(r.Component)),
-        ut =
+        ht =
           (r.Component,
           a(212),
           (function (t) {
@@ -4824,13 +4772,13 @@
                         { className: "dev-icons" },
                         this.props.logos.map(function (t) {
                           return s.a.createElement(
-                            J.a,
+                            P.a,
                             {
                               key: t.siteName,
                               placement: "top",
                               style: { marginBottom: "5px" },
                               overlay: s.a.createElement(
-                                W.a,
+                                V.a,
                                 { id: "tooltip-top" },
                                 s.a.createElement("strong", null, t.siteName)
                               ),
@@ -4866,7 +4814,7 @@
               a
             );
           })(s.a.Component)),
-        pt = (function (t) {
+        mt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -5195,7 +5143,7 @@
             a
           );
         })(r.Component),
-        gt =
+        dt =
           (a(213),
           (function (t) {
             Object(p.a)(a, t);
@@ -5212,7 +5160,7 @@
                     return s.a.createElement(
                       "div",
                       { className: "education-main" },
-                      s.a.createElement(G, { theme: this.props.theme }),
+                      s.a.createElement(T, { theme: this.props.theme }),
                       s.a.createElement(
                         "div",
                         { className: "basic-education" },
@@ -5225,7 +5173,7 @@
                             s.a.createElement(
                               "div",
                               { className: "heading-img-div" },
-                              s.a.createElement(pt, { theme: t })
+                              s.a.createElement(mt, { theme: t })
                             ),
                             s.a.createElement(
                               "div",
@@ -5246,16 +5194,16 @@
                                 },
                                 "Basic Qualification and Certifcations"
                               ),
-                              s.a.createElement(ut, {
+                              s.a.createElement(ht, {
                                 logos: w.competitiveSites,
                               })
                             )
                           )
                         ),
-                        s.a.createElement(mt, { theme: this.props.theme })
+                        s.a.createElement(it, { theme: this.props.theme })
                       ),
-                      s.a.createElement(st, { theme: this.props.theme }),
-                      s.a.createElement(nt, { theme: this.props.theme })
+                      s.a.createElement(et, { theme: this.props.theme }),
+                      s.a.createElement(at, { theme: this.props.theme })
                     );
                   },
                 },
@@ -5263,7 +5211,7 @@
               a
             );
           })(r.Component)),
-        ft =
+        ut =
           (a(214),
           (function (t) {
             Object(p.a)(r, t);
@@ -5374,9 +5322,9 @@
               r
             );
           })(r.Component)),
-        bt = (a(215), a(342)),
-        At = a(338),
-        Ct = (function (t) {
+        pt = (a(215), a(342)),
+        gt = a(338),
+        ft = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -5392,11 +5340,11 @@
                     "div",
                     { className: "experience-accord" },
                     s.a.createElement(
-                      bt.a,
+                      pt.a,
                       null,
                       this.props.sections.map(function (e) {
                         return s.a.createElement(
-                          At.a,
+                          gt.a,
                           {
                             className: "accord-panel",
                             title: e.title,
@@ -5426,7 +5374,7 @@
                             },
                           },
                           e.experiences.map(function (e) {
-                            return s.a.createElement(ft, {
+                            return s.a.createElement(ut, {
                               experience: e,
                               theme: t,
                             });
@@ -5441,7 +5389,7 @@
             a
           );
         })(r.Component),
-        Et =
+        bt =
           (a(216),
           (function (t) {
             Object(p.a)(a, t);
@@ -5891,7 +5839,7 @@
               a
             );
           })(r.Component)),
-        yt = (function (t) {
+        At = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -5906,7 +5854,7 @@
                   return s.a.createElement(
                     "div",
                     { className: "experience-main" },
-                    s.a.createElement(G, { theme: t }),
+                    s.a.createElement(T, { theme: t }),
                     s.a.createElement(
                       "div",
                       { className: "basic-experience" },
@@ -5919,7 +5867,7 @@
                           s.a.createElement(
                             "div",
                             { className: "experience-heading-img-div" },
-                            s.a.createElement(Et, { theme: t })
+                            s.a.createElement(bt, { theme: t })
                           ),
                           s.a.createElement(
                             "div",
@@ -5947,27 +5895,18 @@
                                   "experience-header-detail-text subTitle",
                                 style: { color: t.secondaryText },
                               },
-                              Z.descriptions.map(function (e) {
-                                return s.a.createElement(
-                                  "p",
-                                  {
-                                    className: "content-list",
-                                    style: { color: t.text },
-                                  },
-                                  e
-                                );
-                              })
+                              Z.description
                             )
                           )
                         )
                       )
                     ),
-                    s.a.createElement(Ct, { sections: Z.sections, theme: t }),
-                    s.a.createElement(st, {
+                    s.a.createElement(ft, { sections: Z.sections, theme: t }),
+                    s.a.createElement(et, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    s.a.createElement(nt, { theme: this.props.theme })
+                    s.a.createElement(at, { theme: this.props.theme })
                   );
                 },
               },
@@ -5975,9 +5914,9 @@
             a
           );
         })(r.Component),
-        vt = a(67),
-        wt = (a(308), a(44)),
-        Mt = (function (t) {
+        Ct = a(67),
+        Et = (a(308), a(44)),
+        yt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -5992,7 +5931,7 @@
                     labels: ["Open", "Merged", "Closed"],
                     datasets: [
                       {
-                        data: [wt.open, wt.merged, wt.closed],
+                        data: [Et.open, Et.merged, Et.closed],
                         backgroundColor: ["#28a745", "#6f42c1", "#d73a49"],
                         hoverBackgroundColor: [
                           "#28a745dd",
@@ -6014,7 +5953,7 @@
                         "Pull Request Distribution"
                       )
                     ),
-                    s.a.createElement(vt.a, {
+                    s.a.createElement(Ct.a, {
                       data: t,
                       options: {
                         padding: "0",
@@ -6031,8 +5970,8 @@
             a
           );
         })(r.Component),
-        xt = (a(309), a(51)),
-        Zt = (function (t) {
+        vt = (a(309), a(51)),
+        wt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6047,7 +5986,7 @@
                     labels: ["Open", "Closed"],
                     datasets: [
                       {
-                        data: [xt.open, xt.closed],
+                        data: [vt.open, vt.closed],
                         backgroundColor: ["#28a745", "#d73a49"],
                         hoverBackgroundColor: ["#28a745dd", "#d73a49dd"],
                       },
@@ -6065,7 +6004,7 @@
                         "Issue Distribution"
                       )
                     ),
-                    s.a.createElement(vt.a, {
+                    s.a.createElement(Ct.a, {
                       data: t,
                       options: {
                         margin: "0",
@@ -6082,7 +6021,7 @@
             a
           );
         })(r.Component),
-        kt =
+        Mt =
           (a(310),
           (function (t) {
             Object(p.a)(a, t);
@@ -6118,8 +6057,8 @@
                       s.a.createElement(
                         "div",
                         { className: "os-charts-body-div" },
-                        s.a.createElement(Mt, null),
-                        s.a.createElement(Zt, null)
+                        s.a.createElement(yt, null),
+                        s.a.createElement(wt, null)
                       )
                     );
                   },
@@ -6128,7 +6067,7 @@
               a
             );
           })(r.Component)),
-        Nt =
+        xt =
           (a(311),
           a(312),
           (function (t) {
@@ -6150,13 +6089,13 @@
                         { className: "dev-icons-orgs" },
                         this.props.logos.map(function (t) {
                           return s.a.createElement(
-                            J.a,
+                            P.a,
                             {
                               key: t.login,
                               placement: "top",
                               style: { marginBottom: "5px" },
                               overlay: s.a.createElement(
-                                W.a,
+                                V.a,
                                 { id: "tooltip-top" },
                                 s.a.createElement("strong", null, t.login)
                               ),
@@ -6187,8 +6126,8 @@
               a
             );
           })(r.Component)),
-        Dt = a(123),
-        Ot = (function (t) {
+        Zt = a(123),
+        kt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6219,7 +6158,7 @@
                         )
                       )
                     ),
-                    s.a.createElement(Nt, { logos: Dt.data })
+                    s.a.createElement(xt, { logos: Zt.data })
                   );
                 },
               },
@@ -6227,7 +6166,7 @@
             a
           );
         })(r.Component),
-        Ut =
+        Nt =
           (a(313),
           a(314),
           (function (t) {
@@ -6262,26 +6201,26 @@
                         }),
                         (e = "#ffdce0"));
                     var r,
-                      n =
+                      o =
                         "#" +
                         a.number +
                         " opened on " +
                         a.createdAt.split("T")[0];
                     if (null !== a.mergedBy) {
-                      var o = a.mergedBy.login;
+                      var n = a.mergedBy.login;
                       r = s.a.createElement(
-                        J.a,
+                        P.a,
                         {
-                          key: o,
+                          key: n,
                           placement: "top",
                           style: { marginBottom: "5px" },
                           overlay: s.a.createElement(
-                            W.a,
+                            V.a,
                             { id: "tooltip-top" },
                             s.a.createElement(
                               "strong",
                               null,
-                              "Merged by ".concat(o)
+                              "Merged by ".concat(n)
                             )
                           ),
                         },
@@ -6343,7 +6282,7 @@
                               s.a.createElement(
                                 "p",
                                 { className: "pr-subtitle" },
-                                n
+                                o
                               )
                             )
                           ),
@@ -6439,7 +6378,7 @@
               a
             );
           })(r.Component)),
-        St = (function (t) {
+        Dt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6473,8 +6412,8 @@
                     s.a.createElement(
                       "div",
                       { className: "pull-request-body-div" },
-                      wt.data.map(function (t) {
-                        return s.a.createElement(Ut, { pullRequest: t });
+                      Et.data.map(function (t) {
+                        return s.a.createElement(Nt, { pullRequest: t });
                       })
                     )
                   );
@@ -6484,7 +6423,7 @@
             a
           );
         })(r.Component),
-        Rt =
+        Ot =
           (a(315),
           a(316),
           (function (t) {
@@ -6513,26 +6452,26 @@
                         }),
                         (e = "#ffdce0"));
                     var r,
-                      n =
+                      o =
                         "#" +
                         a.number +
                         " opened on " +
                         a.createdAt.split("T")[0];
                     if (a.assignees.nodes.length > 0) {
-                      var o = a.assignees.nodes[0].name;
+                      var n = a.assignees.nodes[0].name;
                       r = s.a.createElement(
-                        J.a,
+                        P.a,
                         {
-                          key: o,
+                          key: n,
                           placement: "top",
                           style: { marginBottom: "5px" },
                           overlay: s.a.createElement(
-                            W.a,
+                            V.a,
                             { id: "tooltip-top" },
                             s.a.createElement(
                               "strong",
                               null,
-                              "Assigned to ".concat(o)
+                              "Assigned to ".concat(n)
                             )
                           ),
                         },
@@ -6594,7 +6533,7 @@
                               s.a.createElement(
                                 "p",
                                 { className: "issue-subtitle" },
-                                n
+                                o
                               )
                             )
                           )
@@ -6653,7 +6592,7 @@
               a
             );
           })(r.Component)),
-        Bt = (function (t) {
+        Ut = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -6687,8 +6626,8 @@
                     s.a.createElement(
                       "div",
                       { className: "issues-body-div" },
-                      xt.data.map(function (t) {
-                        return s.a.createElement(Rt, { issue: t });
+                      vt.data.map(function (t) {
+                        return s.a.createElement(Ot, { issue: t });
                       })
                     )
                   );
@@ -6698,7 +6637,7 @@
             a
           );
         })(r.Component),
-        jt =
+        St =
           (a(317),
           (function (t) {
             Object(p.a)(a, t);
@@ -6714,16 +6653,16 @@
                     return s.a.createElement(
                       "div",
                       { className: "opensource-main" },
-                      s.a.createElement(G, { theme: this.props.theme }),
-                      s.a.createElement(Ot, { theme: this.props.theme }),
+                      s.a.createElement(T, { theme: this.props.theme }),
                       s.a.createElement(kt, { theme: this.props.theme }),
-                      s.a.createElement(St, { theme: this.props.theme }),
-                      s.a.createElement(Bt, { theme: this.props.theme }),
-                      s.a.createElement(st, {
+                      s.a.createElement(Mt, { theme: this.props.theme }),
+                      s.a.createElement(Dt, { theme: this.props.theme }),
+                      s.a.createElement(Ut, { theme: this.props.theme }),
+                      s.a.createElement(et, {
                         theme: this.props.theme,
                         onToggle: this.props.onToggle,
                       }),
-                      s.a.createElement(nt, { theme: this.props.theme })
+                      s.a.createElement(at, { theme: this.props.theme })
                     );
                   },
                 },
@@ -6731,7 +6670,7 @@
               a
             );
           })(r.Component)),
-        Tt =
+        Rt =
           (r.Component,
           (function (t) {
             Object(p.a)(a, t);
@@ -6988,10 +6927,10 @@
               a
             );
           })(r.Component)),
-        Ft = (a(318), S),
-        zt = R,
-        Gt = B,
-        It = (function (t) {
+        Bt = (a(318), D),
+        jt = O,
+        Tt = U,
+        Ft = (function (t) {
           Object(p.a)(r, t);
           var e = Object(u.a)(r);
           function r() {
@@ -7006,7 +6945,7 @@
                   return s.a.createElement(
                     "div",
                     { className: "contact-main" },
-                    s.a.createElement(G, { theme: t }),
+                    s.a.createElement(T, { theme: t }),
                     s.a.createElement(
                       "div",
                       { className: "basic-contact" },
@@ -7020,7 +6959,7 @@
                             "div",
                             { className: "contact-heading-img-div" },
                             s.a.createElement("img", {
-                              src: a(53)("./".concat(Ft.profile_image_path)),
+                              src: a(53)("./".concat(Bt.profile_image_path)),
                               alt: "",
                             })
                           ),
@@ -7033,7 +6972,7 @@
                                 className: "contact-heading-text",
                                 style: { color: t.text },
                               },
-                              Ft.title
+                              Bt.title
                             ),
                             s.a.createElement(
                               "p",
@@ -7042,13 +6981,13 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: t.secondaryText },
                               },
-                              Ft.description
+                              Bt.description
                             ),
-                            s.a.createElement(Q, { theme: t }),
+                            s.a.createElement(I, { theme: t }),
                             s.a.createElement(
                               "div",
                               { className: "resume-btn-div" },
-                              s.a.createElement(P, {
+                              s.a.createElement(X, {
                                 text: "See My Resume",
                                 newTab: !0,
                                 href: E.resumeLink,
@@ -7067,7 +7006,7 @@
                           s.a.createElement(
                             "div",
                             { className: "contact-heading-img-div" },
-                            s.a.createElement(Tt, { theme: t })
+                            s.a.createElement(Rt, { theme: t })
                           ),
                           s.a.createElement(
                             "div",
@@ -7078,7 +7017,7 @@
                                 className: "address-heading-text",
                                 style: { color: t.text },
                               },
-                              zt.title
+                              jt.title
                             ),
                             s.a.createElement(
                               "p",
@@ -7087,7 +7026,7 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: t.secondaryText },
                               },
-                              zt.subtitle
+                              jt.subtitle
                             ),
                             s.a.createElement(
                               "h1",
@@ -7095,7 +7034,7 @@
                                 className: "address-heading-text",
                                 style: { color: t.text },
                               },
-                              Gt.title
+                              Tt.title
                             ),
                             s.a.createElement(
                               "p",
@@ -7104,15 +7043,15 @@
                                   "contact-header-detail-text subTitle",
                                 style: { color: t.secondaryText },
                               },
-                              Gt.subtitle
+                              Tt.subtitle
                             ),
                             s.a.createElement(
                               "div",
                               { className: "address-btn-div" },
-                              s.a.createElement(P, {
+                              s.a.createElement(X, {
                                 text: "Visit on Google Maps",
                                 newTab: !0,
-                                href: zt.location_map_link,
+                                href: jt.location_map_link,
                                 theme: t,
                               })
                             )
@@ -7120,11 +7059,11 @@
                         )
                       )
                     ),
-                    s.a.createElement(st, {
+                    s.a.createElement(et, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    s.a.createElement(nt, { theme: this.props.theme })
+                    s.a.createElement(at, { theme: this.props.theme })
                   );
                 },
               },
@@ -7132,7 +7071,7 @@
             r
           );
         })(r.Component),
-        Ht =
+        zt =
           (a(319),
           (function (t) {
             Object(p.a)(a, t);
@@ -7156,12 +7095,12 @@
                           { className: "dev-icons-languages" },
                           this.props.logos.map(function (t) {
                             return s.a.createElement(
-                              J.a,
+                              P.a,
                               {
                                 key: t.name,
                                 placement: "top",
                                 overlay: s.a.createElement(
-                                  W.a,
+                                  V.a,
                                   { id: "tooltip-top" },
                                   s.a.createElement("strong", null, t.name)
                                 ),
@@ -7190,7 +7129,7 @@
             );
           })(r.Component));
       a(320);
-      function Xt(t) {
+      function Gt(t) {
         var e = t.repo,
           a = t.theme;
         return s.a.createElement(
@@ -7253,7 +7192,7 @@
                   "Created on ",
                   e.createdAt.split("T")[0]
                 ),
-                s.a.createElement(Ht, {
+                s.a.createElement(zt, {
                   className: "repo-languages",
                   logos: e.languages,
                 })
@@ -7263,63 +7202,8 @@
         );
       }
       a(321);
-      function Lt(t) {
-        var e = t.pub,
-          a = t.theme;
-        return s.a.createElement(
-          "div",
-          {
-            className: "publication-card-div",
-            style: { backgroundColor: a.highlight },
-          },
-          s.a.createElement(
-            b.Fade,
-            { bottom: !0, duration: 2e3, distance: "40px" },
-            s.a.createElement(
-              "div",
-              {
-                key: e.id,
-                onClick: function () {
-                  return (t = e.url), void window.open(t, "_blank").focus();
-                  var t;
-                },
-              },
-              s.a.createElement(
-                "div",
-                { className: "publication-name-div" },
-                s.a.createElement(
-                  "p",
-                  { className: "publication-name", style: { color: a.text } },
-                  e.name
-                )
-              ),
-              s.a.createElement(
-                "p",
-                {
-                  className: "publication-description",
-                  style: { color: a.text },
-                },
-                e.description
-              ),
-              s.a.createElement(
-                "div",
-                { className: "publication-details" },
-                s.a.createElement(
-                  "p",
-                  {
-                    className: "publication-creation-date subTitle",
-                    style: { color: a.secondaryText },
-                  },
-                  "Published on ",
-                  e.createdAt.split("T")[0]
-                )
-              )
-            )
-          )
-        );
-      }
-      var Qt = a(124),
-        Pt =
+      var Ht = a(124),
+        It =
           (a(322),
           (function (t) {
             Object(p.a)(a, t);
@@ -8018,7 +7902,7 @@
               a
             );
           })(r.Component)),
-        Vt = (function (t) {
+        Xt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -8033,7 +7917,7 @@
                   return s.a.createElement(
                     "div",
                     { className: "projects-main" },
-                    s.a.createElement(G, { theme: t }),
+                    s.a.createElement(T, { theme: t }),
                     s.a.createElement(
                       "div",
                       { className: "basic-projects" },
@@ -8046,7 +7930,7 @@
                           s.a.createElement(
                             "div",
                             { className: "projects-heading-img-div" },
-                            s.a.createElement(Pt, { theme: t })
+                            s.a.createElement(It, { theme: t })
                           ),
                           s.a.createElement(
                             "div",
@@ -8075,64 +7959,22 @@
                     s.a.createElement(
                       "div",
                       { className: "repo-cards-div-main" },
-                      Qt.data.map(function (e) {
-                        return s.a.createElement(Xt, { repo: e, theme: t });
+                      Ht.data.map(function (e) {
+                        return s.a.createElement(Gt, { repo: e, theme: t });
                       })
                     ),
-                    s.a.createElement(P, {
+                    s.a.createElement(X, {
                       text: "More Projects",
                       className: "project-button",
                       href: E.githubProfile,
                       newTab: !0,
                       theme: t,
                     }),
-                    U.data.length > 0
-                      ? s.a.createElement(
-                          "div",
-                          { className: "basic-projects" },
-                          s.a.createElement(
-                            b.Fade,
-                            { bottom: !0, duration: 2e3, distance: "40px" },
-                            s.a.createElement(
-                              "div",
-                              { className: "publications-heading-div" },
-                              s.a.createElement(
-                                "div",
-                                { className: "publications-heading-text-div" },
-                                s.a.createElement(
-                                  "h1",
-                                  {
-                                    className: "publications-heading-text",
-                                    style: { color: t.text },
-                                  },
-                                  D
-                                ),
-                                s.a.createElement(
-                                  "p",
-                                  {
-                                    className:
-                                      "projects-header-detail-text subTitle",
-                                    style: { color: t.secondaryText },
-                                  },
-                                  O
-                                )
-                              )
-                            )
-                          )
-                        )
-                      : null,
-                    s.a.createElement(
-                      "div",
-                      { className: "repo-cards-div-main" },
-                      U.data.map(function (e) {
-                        return s.a.createElement(Lt, { pub: e, theme: t });
-                      })
-                    ),
-                    s.a.createElement(st, {
+                    s.a.createElement(et, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
-                    s.a.createElement(nt, { theme: this.props.theme })
+                    s.a.createElement(at, { theme: this.props.theme })
                   );
                 },
               },
@@ -8140,7 +7982,7 @@
             a
           );
         })(r.Component),
-        qt =
+        Lt =
           (a(323),
           (function (t) {
             Object(p.a)(a, t);
@@ -8157,7 +7999,7 @@
                     return s.a.createElement(
                       "div",
                       { className: "error-main" },
-                      s.a.createElement(G, { theme: this.props.theme }),
+                      s.a.createElement(T, { theme: this.props.theme }),
                       s.a.createElement(
                         "div",
                         { className: "error-class" },
@@ -8191,8 +8033,8 @@
                           )
                         )
                       ),
-                      s.a.createElement(st, { theme: this.props.theme }),
-                      s.a.createElement(nt, { theme: this.props.theme })
+                      s.a.createElement(et, { theme: this.props.theme }),
+                      s.a.createElement(at, { theme: this.props.theme })
                     );
                   },
                 },
@@ -8200,7 +8042,7 @@
               a
             );
           })(r.Component)),
-        Jt = (function (t) {
+        Qt = (function (t) {
           Object(p.a)(a, t);
           var e = Object(u.a)(a);
           function a() {
@@ -8227,7 +8069,7 @@
                               exact: !0,
                               render: function (e) {
                                 return s.a.createElement(
-                                  ct,
+                                  nt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8236,7 +8078,7 @@
                               path: "/home",
                               render: function (e) {
                                 return s.a.createElement(
-                                  ot,
+                                  rt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8246,7 +8088,7 @@
                               exact: !0,
                               render: function (e) {
                                 return s.a.createElement(
-                                  yt,
+                                  At,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8255,7 +8097,7 @@
                               path: "/education",
                               render: function (e) {
                                 return s.a.createElement(
-                                  gt,
+                                  dt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8264,7 +8106,7 @@
                               path: "/opensource",
                               render: function (e) {
                                 return s.a.createElement(
-                                  jt,
+                                  St,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8273,7 +8115,7 @@
                               path: "/contact",
                               render: function (e) {
                                 return s.a.createElement(
-                                  It,
+                                  Ft,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8282,7 +8124,7 @@
                               path: "/splash",
                               render: function (e) {
                                 return s.a.createElement(
-                                  ct,
+                                  nt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8291,7 +8133,7 @@
                               path: "/projects",
                               render: function (e) {
                                 return s.a.createElement(
-                                  Vt,
+                                  Xt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8300,7 +8142,7 @@
                               path: "*",
                               render: function (e) {
                                 return s.a.createElement(
-                                  qt,
+                                  Lt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8322,7 +8164,7 @@
                               exact: !0,
                               render: function (e) {
                                 return s.a.createElement(
-                                  ot,
+                                  rt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8331,7 +8173,7 @@
                               path: "/home",
                               render: function (e) {
                                 return s.a.createElement(
-                                  ot,
+                                  rt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8341,7 +8183,7 @@
                               exact: !0,
                               render: function (e) {
                                 return s.a.createElement(
-                                  yt,
+                                  At,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8350,7 +8192,7 @@
                               path: "/education",
                               render: function (e) {
                                 return s.a.createElement(
-                                  gt,
+                                  dt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8359,7 +8201,7 @@
                               path: "/opensource",
                               render: function (e) {
                                 return s.a.createElement(
-                                  jt,
+                                  St,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8368,7 +8210,7 @@
                               path: "/contact",
                               render: function (e) {
                                 return s.a.createElement(
-                                  It,
+                                  Ft,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8377,7 +8219,7 @@
                               path: "/projects",
                               render: function (e) {
                                 return s.a.createElement(
-                                  Vt,
+                                  Xt,
                                   Object.assign({}, e, { theme: t.props.theme })
                                 );
                               },
@@ -8391,7 +8233,7 @@
             a
           );
         })(r.Component),
-        Wt = {
+        Pt = {
           body: "#EDF9FE",
           text: "#001C55",
           expTxtColor: "#000a12",
@@ -8404,21 +8246,21 @@
           headerColor: "#0E6BA877",
           splashBg: "#001C55",
         };
-      function Yt() {
-        var t = Object(I.a)([
+      function Vt() {
+        var t = Object(F.a)([
           "\n  *,\n  *::after,\n  *::before {\n    box-sizing: border-box;\n  }\n\n  body {\n    align-items: center;\n    background: ",
           ";\n    color: ",
           ";\n    display: flex;\n    // flex-direction: column;\n    // justify-content: center;\n    // height: 100vh;\n    // margin: 0;\n    // padding: 0;\n    font-family: BlinkMacSystemFont, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;\n    transition: all 0.25s linear;\n  }",
         ]);
         return (
-          (Yt = function () {
+          (Vt = function () {
             return t;
           }),
           t
         );
       }
-      var Kt = Object(H.b)(
-        Yt(),
+      var qt = Object(z.b)(
+        Vt(),
         function (t) {
           return t.theme.body;
         },
@@ -8426,15 +8268,15 @@
           return t.theme.text;
         }
       );
-      var _t = function () {
+      var Jt = function () {
         return s.a.createElement(
-          H.a,
-          { theme: Wt },
+          z.a,
+          { theme: Pt },
           s.a.createElement(
             s.a.Fragment,
             null,
-            s.a.createElement(Kt, null),
-            s.a.createElement("div", null, s.a.createElement(Jt, { theme: Wt }))
+            s.a.createElement(qt, null),
+            s.a.createElement("div", null, s.a.createElement(Qt, { theme: Pt }))
           )
         );
       };
@@ -8446,12 +8288,12 @@
           )
       );
       a(324);
-      var $t = new h.a();
-      o.a.render(
+      var Wt = new h.a();
+      n.a.render(
         s.a.createElement(
           c.a,
-          { value: $t },
-          s.a.createElement(l.a, { theme: i.a }, s.a.createElement(_t, null))
+          { value: Wt },
+          s.a.createElement(l.a, { theme: i.a }, s.a.createElement(Jt, null))
         ),
         document.getElementById("root")
       ),
@@ -8463,4 +8305,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.86a05715.chunk.js.map
+//# sourceMappingURL=main.76f3c70e.chunk.js.map
