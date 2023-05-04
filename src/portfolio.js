@@ -84,8 +84,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React and Angular",
-        "⚡ Developing ",
         "⚡ Creating application backend in Node, Express & Spring Boot",
+        "⚡ Conducting unit tests using Postman and curl",
       ],
       softwareSkills: [
         {

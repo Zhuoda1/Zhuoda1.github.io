@@ -491,9 +491,9 @@
           },
         },
         y = {
-          title: "Zhuoda Liu",
+          title: "\u5218\u5353\u8fbe",
           logo_name: "Zhuoda Liu",
-          nickname: "\u5218\u5353\u8fbe",
+          nickname: "Zhuoda Liu",
           subTitle:
             "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
           resumeLink:
@@ -527,8 +527,8 @@
               fileName: "FullStackImg",
               skills: [
                 "\u26a1 Building responsive website front end using React and Angular",
-                "\u26a1 Developing ",
                 "\u26a1 Creating application backend in Node, Express & Spring Boot",
+                "\u26a1 Conducting unit tests using Postman and curl",
               ],
               softwareSkills: [
                 {
@@ -9055,4 +9055,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.d1192e68.chunk.js.map
+//# sourceMappingURL=main.1e355a99.chunk.js.map
