@@ -662,11 +662,6 @@ body {
   justify-content: center;
   align-items: center;
 }
-.content-list {
-  padding-left: 10px;
-  padding-right: 10px;
-  font-family: Google Sans Regular;
-}
 .card-body {
   border-bottom: 1px solid #d9dbdf;
   border-left: 1px solid #d9dbdf;
@@ -714,9 +709,11 @@ body {
   }
   .card-title {
     font-size: 20px;
+    left: 5px;
   }
   .card-subtitle {
     font-size: 16px;
+    left: 5px;
   }
 }
 .certs-header {
@@ -911,6 +908,11 @@ body {
   .heading-div {
     flex-direction: column;
   }
+}
+.content-list {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: Google Sans Regular;
 }
 .experience-card {
   width: 100%;
@@ -6474,4 +6476,4 @@ canvas {
 .fas {
   font-weight: 900;
 }
-/*# sourceMappingURL=main.296ae8f7.chunk.css.map */
+/*# sourceMappingURL=main.177d1ea4.chunk.css.map */
