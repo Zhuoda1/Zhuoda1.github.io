@@ -68,10 +68,10 @@
         "./ui_ux_design.svg": 205,
       };
       function o(e) {
-        var t = s(e);
+        var t = n(e);
         return a(t);
       }
-      function s(e) {
+      function n(e) {
         if (!a.o(r, e)) {
           var t = new Error("Cannot find module '" + e + "'");
           throw ((t.code = "MODULE_NOT_FOUND"), t);
@@ -81,7 +81,7 @@
       (o.keys = function () {
         return Object.keys(r);
       }),
-        (o.resolve = s),
+        (o.resolve = n),
         (e.exports = o),
         (o.id = 53);
     },
@@ -466,9 +466,9 @@
       a.r(t);
       var r = a(0),
         o = a.n(r),
-        s = a(16),
-        l = a.n(s),
-        n = a(336),
+        n = a(16),
+        l = a.n(n),
+        s = a(336),
         i = a(323),
         c = a(35),
         h = a(126),
@@ -569,51 +569,14 @@
               ],
             },
             {
-              title: "Data Science & AI",
-              fileName: "DataScienceImg",
-              skills: [
-                "\u26a1 Developing highly scalable production ready models for various deeplearning and statistical use cases",
-                "\u26a1 Experience of working with Computer Vision and NLP projects",
-                "\u26a1 Complex quantitative modelling for dynamic forecasting and time series analysis",
-              ],
-              softwareSkills: [
-                {
-                  skillName: "Tensorflow",
-                  fontAwesomeClassname: "logos-tensorflow",
-                  style: { backgroundColor: "transparent" },
-                },
-                {
-                  skillName: "Keras",
-                  fontAwesomeClassname: "simple-icons:keras",
-                  style: { backgroundColor: "white", color: "#D00000" },
-                },
-                {
-                  skillName: "PyTorch",
-                  fontAwesomeClassname: "logos-pytorch",
-                  style: { backgroundColor: "transparent" },
-                },
-                {
-                  skillName: "Python",
-                  fontAwesomeClassname: "ion-logo-python",
-                  style: { backgroundColor: "transparent", color: "#3776AB" },
-                },
-              ],
-            },
-            {
               title: "Cloud Infra-Architecture",
               fileName: "CloudInfraImg",
               skills: [
                 "\u26a1 Experience working on multiple cloud platforms",
-                "\u26a1 Hosting and maintaining websites on virtual machine instances along with integration of databases",
-                "\u26a1 Deploying deep learning models on cloud to use on mobile devices",
-                "\u26a1 Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+                "\u26a1 Hosting and maintaining websites on container instances along with databases on distributed cloud platforms",
+                "\u26a1 Strenghtening the orchestration for deployment, scaling and management of Docker containers using Kubernetes",
               ],
               softwareSkills: [
-                {
-                  skillName: "GCP",
-                  fontAwesomeClassname: "simple-icons:googlecloud",
-                  style: { color: "#4285F4" },
-                },
                 {
                   skillName: "AWS",
                   fontAwesomeClassname: "simple-icons:amazonaws",
@@ -623,11 +586,6 @@
                   skillName: "Azure",
                   fontAwesomeClassname: "simple-icons:microsoftazure",
                   style: { color: "#0089D6" },
-                },
-                {
-                  skillName: "Firebase",
-                  fontAwesomeClassname: "simple-icons:firebase",
-                  style: { color: "#FFCA28" },
                 },
                 {
                   skillName: "PostgreSQL",
@@ -648,37 +606,6 @@
                   skillName: "Kubernetes",
                   fontAwesomeClassname: "simple-icons:kubernetes",
                   style: { color: "#326CE5" },
-                },
-              ],
-            },
-            {
-              title: "UI/UX Design",
-              fileName: "DesignImg",
-              skills: [
-                "\u26a1 Designing highly attractive user interface for mobile and web applications",
-                "\u26a1 Customizing logo designs and building logos from scratch",
-                "\u26a1 Creating the flow of application functionalities to optimize user experience",
-              ],
-              softwareSkills: [
-                {
-                  skillName: "Adobe XD",
-                  fontAwesomeClassname: "simple-icons:adobexd",
-                  style: { color: "#FF2BC2" },
-                },
-                {
-                  skillName: "Figma",
-                  fontAwesomeClassname: "simple-icons:figma",
-                  style: { color: "#F24E1E" },
-                },
-                {
-                  skillName: "Adobe Illustrator",
-                  fontAwesomeClassname: "simple-icons:adobeillustrator",
-                  style: { color: "#FF7C00" },
-                },
-                {
-                  skillName: "Inkscape",
-                  fontAwesomeClassname: "simple-icons:inkscape",
-                  style: { color: "#000000" },
                 },
               ],
             },
@@ -866,7 +793,7 @@
             },
           ],
         },
-        k = {
+        Z = {
           title: "Experience",
           subtitle: "Work, Internship and Volunteership",
           description:
@@ -1015,7 +942,7 @@
             },
           ],
         },
-        Z = "Projects",
+        k = "Projects",
         N =
           "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
         D = "Publications",
@@ -1364,7 +1291,7 @@
         var t = e.text,
           a = e.className,
           r = e.href,
-          s = e.newTab,
+          n = e.newTab,
           l = e.theme;
         return o.a.createElement(
           "div",
@@ -1374,7 +1301,7 @@
             {
               class: "main-button",
               href: r,
-              target: s && "_blank",
+              target: n && "_blank",
               style: {
                 color: l.body,
                 backgroundColor: l.text,
@@ -4330,7 +4257,7 @@
         );
       }
       a(155);
-      function se(e) {
+      function ne(e) {
         return o.a.createElement(
           "div",
           { className: "footer-div" },
@@ -4398,7 +4325,7 @@
           })
         );
       }
-      var ne = (function (e) {
+      var se = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -4415,7 +4342,7 @@
                     o.a.createElement(H, { theme: this.props.theme }),
                     o.a.createElement(J, { theme: this.props.theme }),
                     o.a.createElement(oe, { theme: this.props.theme }),
-                    o.a.createElement(se, { theme: this.props.theme }),
+                    o.a.createElement(ne, { theme: this.props.theme }),
                     o.a.createElement(le, { theme: this.props.theme })
                   );
                 },
@@ -5500,7 +5427,7 @@
                           ? o.a.createElement(pe, { theme: this.props.theme })
                           : null
                       ),
-                      o.a.createElement(se, { theme: this.props.theme }),
+                      o.a.createElement(ne, { theme: this.props.theme }),
                       o.a.createElement(le, { theme: this.props.theme })
                     );
                   },
@@ -6167,7 +6094,7 @@
                                 className: "experience-heading-text",
                                 style: { color: e.text },
                               },
-                              k.title
+                              Z.title
                             ),
                             o.a.createElement(
                               "h3",
@@ -6175,7 +6102,7 @@
                                 className: "experience-heading-sub-text",
                                 style: { color: e.text },
                               },
-                              k.subtitle
+                              Z.subtitle
                             ),
                             o.a.createElement(
                               "p",
@@ -6184,14 +6111,14 @@
                                   "experience-header-detail-text subTitle",
                                 style: { color: e.secondaryText },
                               },
-                              k.description
+                              Z.description
                             )
                           )
                         )
                       )
                     ),
-                    o.a.createElement(Ee, { sections: k.sections, theme: e }),
-                    o.a.createElement(se, {
+                    o.a.createElement(Ee, { sections: Z.sections, theme: e }),
+                    o.a.createElement(ne, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
@@ -6205,7 +6132,7 @@
         })(r.Component),
         Me = a(67),
         xe = (a(304), a(44)),
-        ke = (function (e) {
+        Ze = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
           function a() {
@@ -6259,7 +6186,7 @@
             a
           );
         })(r.Component),
-        Ze = (a(305), a(51)),
+        ke = (a(305), a(51)),
         Ne = (function (e) {
           Object(p.a)(a, e);
           var t = Object(u.a)(a);
@@ -6275,7 +6202,7 @@
                     labels: ["Open", "Closed"],
                     datasets: [
                       {
-                        data: [Ze.open, Ze.closed],
+                        data: [ke.open, ke.closed],
                         backgroundColor: ["#28a745", "#d73a49"],
                         hoverBackgroundColor: ["#28a745dd", "#d73a49dd"],
                       },
@@ -6346,7 +6273,7 @@
                       o.a.createElement(
                         "div",
                         { className: "os-charts-body-div" },
-                        o.a.createElement(ke, null),
+                        o.a.createElement(Ze, null),
                         o.a.createElement(Ne, null)
                       )
                     );
@@ -6490,7 +6417,7 @@
                         }),
                         (t = "#ffdce0"));
                     var r,
-                      s =
+                      n =
                         "#" +
                         a.number +
                         " opened on " +
@@ -6571,7 +6498,7 @@
                               o.a.createElement(
                                 "p",
                                 { className: "pr-subtitle" },
-                                s
+                                n
                               )
                             )
                           ),
@@ -6741,7 +6668,7 @@
                         }),
                         (t = "#ffdce0"));
                     var r,
-                      s =
+                      n =
                         "#" +
                         a.number +
                         " opened on " +
@@ -6822,7 +6749,7 @@
                               o.a.createElement(
                                 "p",
                                 { className: "issue-subtitle" },
-                                s
+                                n
                               )
                             )
                           )
@@ -6915,7 +6842,7 @@
                     o.a.createElement(
                       "div",
                       { className: "issues-body-div" },
-                      Ze.data.map(function (e) {
+                      ke.data.map(function (e) {
                         return o.a.createElement(je, { issue: e });
                       })
                     )
@@ -6947,7 +6874,7 @@
                       o.a.createElement(De, { theme: this.props.theme }),
                       o.a.createElement(Be, { theme: this.props.theme }),
                       o.a.createElement(Te, { theme: this.props.theme }),
-                      o.a.createElement(se, {
+                      o.a.createElement(ne, {
                         theme: this.props.theme,
                         onToggle: this.props.onToggle,
                       }),
@@ -7712,7 +7639,7 @@
                         )
                       )
                     ),
-                    o.a.createElement(se, {
+                    o.a.createElement(ne, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
@@ -8649,7 +8576,7 @@
                                 className: "projects-heading-text",
                                 style: { color: e.text },
                               },
-                              Z
+                              k
                             ),
                             o.a.createElement(
                               "p",
@@ -8720,7 +8647,7 @@
                         return o.a.createElement(qe, { pub: t, theme: e });
                       })
                     ),
-                    o.a.createElement(se, {
+                    o.a.createElement(ne, {
                       theme: this.props.theme,
                       onToggle: this.props.onToggle,
                     }),
@@ -8783,7 +8710,7 @@
                           )
                         )
                       ),
-                      o.a.createElement(se, { theme: this.props.theme }),
+                      o.a.createElement(ne, { theme: this.props.theme }),
                       o.a.createElement(le, { theme: this.props.theme })
                     );
                   },
@@ -8828,7 +8755,7 @@
                               path: "/home",
                               render: function (t) {
                                 return o.a.createElement(
-                                  ne,
+                                  se,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8914,7 +8841,7 @@
                               exact: !0,
                               render: function (t) {
                                 return o.a.createElement(
-                                  ne,
+                                  se,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -8923,7 +8850,7 @@
                               path: "/home",
                               render: function (t) {
                                 return o.a.createElement(
-                                  ne,
+                                  se,
                                   Object.assign({}, t, { theme: e.props.theme })
                                 );
                               },
@@ -9043,7 +8970,7 @@
         o.a.createElement(
           c.a,
           { value: rt },
-          o.a.createElement(n.a, { theme: i.a }, o.a.createElement(at, null))
+          o.a.createElement(s.a, { theme: i.a }, o.a.createElement(at, null))
         ),
         document.getElementById("root")
       ),
@@ -9055,4 +8982,4 @@
   ]),
   [[129, 1, 2]],
 ]);
-//# sourceMappingURL=main.1e355a99.chunk.js.map
+//# sourceMappingURL=main.c6602780.chunk.js.map
