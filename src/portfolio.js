@@ -22,8 +22,11 @@ const greeting = {
   title: "刘卓达",
   logo_name: "Zhuoda Liu",
   nickname: "Zhuoda Liu",
-  subTitle:
-    "An aspiring software engineer, a curious sunset photographer, and a passionate foodie",
+  subTitle: [
+    "An aspiring software engineer,",
+    "a curious sunset photographer,",
+    "and a passionate foodie",
+  ],
   resumeLink:
     "https://drive.google.com/file/d/1gMyzaKLFZMElMZ6sKLkCABWe7In4AsXp/view?usp=sharing",
   // portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
@@ -539,9 +542,9 @@ const certifications = {
 // Experience Page
 const experience = {
   title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  subtitle: "Work and Internship",
   description:
-    "Besides my professional skills, I'm also experienced in teamwork and leadership practices. I've worked in a 20-people group at Laiye, acted as a leader in a 6-people research group, and worked as a minister in a volunteer association.",
+    "I am an aspiring Software Engineer currently pursuing my bachelor's in Computer Science at the University of Minnesota. Specializing in full-stack development, I deliver high-quality solutions that push boundaries. With a proven track record of delivering high-quality projects and collaborating effectively with cross-functional teams, I am committed to creating impactful and transformative solutions.",
   header_image_path: "experience.svg",
   sections: [
     // {
@@ -584,7 +587,39 @@ const experience = {
     // },
     {
       title: "Internships",
+
       experiences: [
+        {
+          title: "Quantitative Developer Intern",
+          company: "JoinQuant",
+          company_url: "https://www.joinquant.com",
+          logo_path: "joinquant_logo.jpeg",
+          duration: "July 2023 - Current",
+          location: "Beijing, China",
+          descriptions: [
+            "• Contributed to the data transaction, in charge of server API and stock exchange data computing using Python.",
+            "• Improved analytic queries performance by over 100 times with data migration from MySQL to ClickHouse.",
+          ],
+          color: "#000000",
+        },
+        {
+          title: "Software Engineer Intern",
+          company: "Parametrix.ai",
+          company_url: "http://www.parametrix.cn/index-en.html",
+          logo_path: "parametrix_ai_logo.jpeg",
+          duration: "May 2023 - June 2023",
+          location: "Shenzhen, China",
+          descriptions: [
+            "• Directed, designed, and developed an AI-based product website from ground up using React in Typescript.",
+            "• Integrated Large Language Model (LLM) to empower non-player character (NPC) with prompt engineering.",
+            "• Worked with cross-functional teams, applied accurate and effective support to produce a outstanding website.",
+            "• Strengthened Responsive Web Design provided smooth and engaging user experience following SPA and MVC with cross browser compatibility, supported by clean and optimized code utilizing cutting-edge technologies.",
+            "• Increasd rendering speed by 40% with 100% deadline adherence using understanding of React fundamentals.",
+            "• Decreased load times by roughly 35% by introducing wider use of code reusing, splitting, and well-organizing.",
+            "• Worked with web technologies like AJAX, jQuery, ES6, Jest, Tailwind, Sass, Redux and UI Libraries.",
+          ],
+          color: "#000000",
+        },
         {
           title: "Software Engineer Intern",
           company: "Laiye",
@@ -594,10 +629,14 @@ const experience = {
           location: "Beijing, China",
           descriptions: [
             "• Designed, built and managed a full-service machine learning platform that provides training, annotation, testing and inference capabilities for machine learning applications in collaboration with a 20 members team.",
-            "• Developed gRPC APIs in Golang, conducted unit tests using curl and Postman, deployed CI process utilizing Jenkins.",
-            "• Strengthened the orchestration for deployment, scaling and management of Docker containers using Kubernetes.",
-            "• Saved thousands of dollars of losses in late response to GPU device failures by monitoring devices and sending alerts automatically through Grafana based on a Prometheus database.",
-            "• Reduced response time by over 70% by restructuring database queries to a NoSQL database.",
+            "• Ensured that security and quality assurance best practices are followed throughout entire SDLC using AGILE.",
+            "• Developed gRPC API in Golang implementing ML algorithm and dataset search/filter/sort/compare feature.",
+            "• Conducted unit tests using curl in Python scripts for test automation and Postman for performance test.",
+            "• Deployed CI/CD process utilizing Jenkins, operated Git workflow for version control and team collaboration.",
+            "• Engineered the orchestration for deployment, scaling and management of Docker containers using Kubernetes.",
+            "• Saved $3000 of losses in GPU failures by monitoring devices and sending alerts automatically through Grafana.",
+            "• Assembled forwarding API and set up a team channel chat bot to remodel alerts and do automatic messaging.",
+            "• Reduced response time by over 70% by analyzing and restructuring database queries to a SQL database in ORM.",
           ],
           color: "#000000",
         },

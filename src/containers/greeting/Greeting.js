@@ -26,10 +26,15 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {greeting.subTitle}
+                {greeting.subTitle.map((ele, _) => (
+                  <span>
+                    {ele}
+                    <br />
+                  </span>
+                ))}
               </p>
               <SocialMedia theme={theme} />
-              <div className="portfolio-repo-btn-div">
+              {/* <div className="portfolio-repo-btn-div">
                 <Button
                   text="⭐ Star Me On Github"
                   newTab={true}
@@ -37,7 +42,7 @@ export default function Greeting(props) {
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
-              </div>
+              </div> */}
               {/* <div className="button-greeting-div">
               <Button text="Contact me" href="#contact" />
               <Button text="See my resume" newTab={true} href={greeting.resumeLink} />
