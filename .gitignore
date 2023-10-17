@@ -41,3 +41,7 @@ Thumbs.db
 node_modules
 
 **/bulid
+
+**/.DS_Store
+
+.DS_Store
