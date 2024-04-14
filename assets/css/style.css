@@ -757,6 +757,10 @@ main {
   margin-bottom: 4px;
 }
 
+.modal-content{
+  min-width: 400px;
+}
+
 .modal-content time {
   font-size: var(--fs-6);
   color: var(--light-gray-70);
